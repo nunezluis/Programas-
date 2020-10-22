@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+  <TITLE>CaidaServilleta</TITLE>
+  <META NAME="generator" CONTENT="wxMaxima">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    displayAlign: "left",
+    context: "MathJax",
+    TeX: {TagSide: "left"}
+  })
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML">
+</script>
+  <link rel="stylesheet" type="text/css" href="CaidaServilleta_htmlimg/CaidaServilleta.css"/>
+ </HEAD>
+ <BODY>
+
+<!-- ***************************************************** -->
+<!--          Created with wxMaxima version 19.05.7         -->
+<!-- ***************************************************** -->
+<noscript><div class="error message">    Please enable JavaScript in order to get a 2d display of the equations embedded in this web page.</div></noscript>\(      \DeclareMathOperator{\abs}{abs}
+      \newcommand{\ensuremath}[1]{\mbox{$#1$}}
+\)
+
+<!-- Title cell -->
+
+
+<P CLASS="title">
+Simulación de la caida de una servilleta
+</P>
+
+
+<!-- Text cell -->
+
+
+<P CLASS="comment">&nbsp;
+En esta hoja de MAXIMA implementaremos un modelo para simular la caida de una servilleta cuando la fuerza de fricción es importante. Esta excusa nos permitirá aprender algunos trucos de como opera MAXIMA<BR>
+</P>
+
+
+<!-- Text cell -->
+
+
+<P CLASS="comment">&nbsp;
+Primero vemos que hay celdas de texto y celdas <BR><BR>La primera instrucción que aprenderemos es la asignación de un valor a una variable, y los comentarios dentro del código.<BR>
+</P>
+
+
+<!-- Section cell -->
+
+
+<P CLASS="section">
+ &nbsp;1 Condiciones iniciales y parámetros para el movimento 
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i7)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">Los</span><span class="code_comment"> </span><span class="code_comment">parámetros</span><span class="code_comment"> </span><span class="code_comment">del</span><span class="code_comment"> </span><span class="code_comment">movimiento</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">Dt</span> <span class="code_operator">:</span> <span class="code_number">0</span><span class="code_number">.</span><span class="code_number">1</span><span class="code_endofline">;</span>  <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">del</span><span class="code_comment"> </span><span class="code_comment">movimiento</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">g</span> <span class="code_operator">:</span> <span class="code_number">10</span><span class="code_endofline">;</span> &nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">aceleración</span><span class="code_comment"> </span><span class="code_comment">de</span><span class="code_comment"> </span><span class="code_comment">gravedad</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">kappa</span> <span class="code_operator">:</span>  <span class="code_number">1</span><span class="code_number">.</span><span class="code_number">3</span><span class="code_endofline">;</span> <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">constante</span><span class="code_comment"> </span><span class="code_comment">de</span><span class="code_comment"> </span><span class="code_comment">fricción</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">las</span><span class="code_comment"> </span><span class="code_comment">condiciones</span><span class="code_comment"> </span><span class="code_comment">iniciales</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">V0</span> <span class="code_operator">:</span> <span class="code_number">0</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">velocidad</span><span class="code_comment"> </span><span class="code_comment">inicial</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">d0</span> <span class="code_operator">:</span> <span class="code_number">0</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">distancia</span><span class="code_comment"> </span><span class="code_comment">recorrida</span><span class="code_comment"> </span><span class="code_comment">inicial</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">t0</span> <span class="code_operator">:</span> <span class="code_number">0</span> <span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">inicial</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">a0</span> <span class="code_operator">:</span> <span class="code_number">0</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">aceleracion</span><span class="code_comment"> </span><span class="code_comment">inicial</span><span class="code_comment"> </span><span class="code_comment">*/</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{Dt}0.1\]
+\[\tag{g}10\]
+\[\tag{kappa}1.3\]
+\[\tag{V0}0\]
+\[\tag{d0}0\]
+\[\tag{t0}0\]
+\[\tag{a0}0\]
+
+
+<!-- Section cell -->
+
+
+<P CLASS="section">
+ &nbsp;2 Las interaciones del movimiento
+</P>
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;2.1 movimiento en de t0 a t1
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i11)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_variable">t1</span> <span class="code_operator">:</span>  <span class="code_variable">t0</span> <span class="code_operator">+</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">siguiente</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">a1</span> <span class="code_operator">:</span>  <span class="code_variable">g</span> <span class="code_operator">-</span> <span class="code_variable">kappa</span><span class="code_operator">*</span><span class="code_variable">V0</span><span class="code_endofline">;</span> &nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">aceleracion</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">de</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">V1</span> <span class="code_operator">:</span> <span class="code_variable">V0</span> <span class="code_operator">+</span> <span class="code_variable">a1</span><span class="code_operator">*</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">velocidad</span><span class="code_comment"> </span><span class="code_comment">final</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">d1</span> <span class="code_operator">:</span>  <span class="code_variable">d0</span> <span class="code_operator">+</span> <span class="code_variable">V0</span><span class="code_operator">*</span><span class="code_variable">Dt</span> <span class="code_operator">+</span> <span class="code_variable">a1</span><span class="code_operator">*</span>(<span class="code_variable">Dt</span><span class="code_operator">*</span><span class="code_operator">*</span><span class="code_number">2</span>) <span class="code_operator">/</span><span class="code_number">2</span><span class="code_endofline">;</span>  <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">desplazamiento</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{t1}0.1\]
+\[\tag{a1}10\]
+\[\tag{V1}1.0\]
+\[\tag{d1}0.05000000000000001\]
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;2.2 movimiento en de t1 a t2
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i15)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_variable">t2</span> <span class="code_operator">:</span>  <span class="code_variable">t1</span> <span class="code_operator">+</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">siguiente</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">a2</span> <span class="code_operator">:</span>  <span class="code_variable">g</span> <span class="code_operator">-</span> <span class="code_variable">kappa</span><span class="code_operator">*</span><span class="code_variable">V1</span><span class="code_endofline">;</span> &nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">aceleracion</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">de</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">V2</span> <span class="code_operator">:</span> <span class="code_variable">V1</span> <span class="code_operator">+</span> <span class="code_variable">a2</span><span class="code_operator">*</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">velocidad</span><span class="code_comment"> </span><span class="code_comment">final</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">d2</span> <span class="code_operator">:</span>  <span class="code_variable">d1</span> <span class="code_operator">+</span> <span class="code_variable">V1</span><span class="code_operator">*</span><span class="code_variable">Dt</span> <span class="code_operator">+</span> <span class="code_variable">a2</span><span class="code_operator">*</span>(<span class="code_variable">Dt</span><span class="code_operator">*</span><span class="code_operator">*</span><span class="code_number">2</span>) <span class="code_operator">/</span><span class="code_number">2</span><span class="code_endofline">;</span>  <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">desplazamiento</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{t2}0.2\]
+\[\tag{a2}8.7\]
+\[\tag{V2}1.87\]
+\[\tag{d2}0.1935\]
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;2.3 movimiento en de t2 a t3
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i19)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_variable">t3</span> <span class="code_operator">:</span>  <span class="code_variable">t2</span> <span class="code_operator">+</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">siguiente</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">a3</span> <span class="code_operator">:</span>  <span class="code_variable">g</span> <span class="code_operator">-</span> <span class="code_variable">kappa</span><span class="code_operator">*</span><span class="code_variable">V2</span><span class="code_endofline">;</span> &nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">aceleracion</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">de</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">V3</span> <span class="code_operator">:</span> <span class="code_variable">V2</span> <span class="code_operator">+</span> <span class="code_variable">a3</span><span class="code_operator">*</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">velocidad</span><span class="code_comment"> </span><span class="code_comment">final</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">d3</span> <span class="code_operator">:</span>  <span class="code_variable">d2</span> <span class="code_operator">+</span> <span class="code_variable">V2</span><span class="code_operator">*</span><span class="code_variable">Dt</span> <span class="code_operator">+</span> <span class="code_variable">a3</span><span class="code_operator">*</span>(<span class="code_variable">Dt</span><span class="code_operator">*</span><span class="code_operator">*</span><span class="code_number">2</span>) <span class="code_operator">/</span><span class="code_number">2</span><span class="code_endofline">;</span>  <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">desplazamiento</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{t3}0.3\]
+\[\tag{a3}7.569\]
+\[\tag{V3}2.6269\]
+\[\tag{d3}0.4183450000000001\]
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;2.4 movimiento en de t3 a t4
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i23)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_variable">t4</span> <span class="code_operator">:</span>  <span class="code_variable">t3</span> <span class="code_operator">+</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">siguiente</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">a4</span> <span class="code_operator">:</span>  <span class="code_variable">g</span> <span class="code_operator">-</span> <span class="code_variable">kappa</span><span class="code_operator">*</span><span class="code_variable">V3</span><span class="code_endofline">;</span> &nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">aceleracion</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">de</span><span class="code_comment"> </span><span class="code_comment">tiempo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">V4</span> <span class="code_operator">:</span> <span class="code_variable">V3</span> <span class="code_operator">+</span> <span class="code_variable">a4</span><span class="code_operator">*</span><span class="code_variable">Dt</span><span class="code_endofline">;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">la</span><span class="code_comment"> </span><span class="code_comment">velocidad</span><span class="code_comment"> </span><span class="code_comment">final</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">d4</span> <span class="code_operator">:</span>  <span class="code_variable">d3</span> <span class="code_operator">+</span> <span class="code_variable">V3</span><span class="code_operator">*</span><span class="code_variable">Dt</span> <span class="code_operator">+</span> <span class="code_variable">a4</span><span class="code_operator">*</span>(<span class="code_variable">Dt</span><span class="code_operator">*</span><span class="code_operator">*</span><span class="code_number">2</span>) <span class="code_operator">/</span><span class="code_number">2</span><span class="code_endofline">;</span>  <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">desplazamiento</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">el</span><span class="code_comment"> </span><span class="code_comment">intervalo</span><span class="code_comment"> </span><span class="code_comment">*/</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{t4}0.4\]
+\[\tag{a4}6.58503\]
+\[\tag{V4}3.285403\]
+\[\tag{d4}0.71396015\]
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;2.5 Si requiere de mas intervalos de tiempo puede agregarlo siguiendo la misma lógica
+</P>
+
+
+<!-- Section cell -->
+
+
+<P CLASS="section">
+ &nbsp;3 Ahora se grafican y se pueden exportar los datos de la simulación
+</P>
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;3.1 Empezamos por organizar los datos en listas o arreglos para poder manejarlos mejor<BR>
+
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i30)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_variable">tiempo</span> <span class="code_operator">:</span> [<span class="code_variable">t0</span>, <span class="code_variable">t1</span>, <span class="code_variable">t2</span>, <span class="code_variable">t3</span>, <span class="code_variable">t4</span>]<span class="code_endofline">;</span>  <span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">se</span><span class="code_comment"> </span><span class="code_comment">asigna</span><span class="code_comment"> </span><span class="code_comment">una</span><span class="code_comment"> </span><span class="code_comment">lista</span><span class="code_comment"> </span><span class="code_comment">a</span><span class="code_comment"> </span><span class="code_comment">una</span><span class="code_comment"> </span><span class="code_comment">variable</span><span class="code_comment"> </span><span class="code_comment">en</span><span class="code_comment"> </span><span class="code_comment">cada</span><span class="code_comment"> </span><span class="code_comment">caso</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">aceleracion</span> <span class="code_operator">:</span> [<span class="code_variable">a0</span>, <span class="code_variable">a1</span>, <span class="code_variable">a2</span>, <span class="code_variable">a3</span>, <span class="code_variable">a4</span>]<span class="code_endofline">;</span><BR>
+<span class="code_variable">velocidad</span> <span class="code_operator">:</span> [<span class="code_variable">V0</span>, <span class="code_variable">V1</span>, <span class="code_variable">V2</span>, <span class="code_variable">V3</span>, <span class="code_variable">V4</span>]<span class="code_endofline">;</span><BR>
+<span class="code_variable">distancia</span> <span class="code_operator">:</span> [<span class="code_variable">d0</span>, <span class="code_variable">d1</span>, <span class="code_variable">d2</span>, <span class="code_variable">d3</span>, <span class="code_variable">d4</span>]<span class="code_endofline">;</span><BR>
+<span class="code_comment">/*</span><span class="code_comment"> </span><span class="code_comment">ahora</span><span class="code_comment"> </span><span class="code_comment">se</span><span class="code_comment"> </span><span class="code_comment">construye</span><span class="code_comment"> </span><span class="code_comment">una</span><span class="code_comment"> </span><span class="code_comment">lista</span><span class="code_comment"> </span><span class="code_comment">de</span><span class="code_comment"> </span><span class="code_comment">listas</span><span class="code_comment"> </span><span class="code_comment">*/</span><BR>
+<span class="code_variable">grafAceleracion</span> <span class="code_operator">:</span> [[<span class="code_variable">t0</span>,<span class="code_variable">a0</span>],[<span class="code_variable">t1</span>,<span class="code_variable">a1</span>],[<span class="code_variable">t2</span>,<span class="code_variable">a2</span>],[<span class="code_variable">t3</span>,<span class="code_variable">a3</span>],[<span class="code_variable">t4</span>,<span class="code_variable">a4</span>]]<span class="code_endofline">;</span><BR>
+<span class="code_variable">grafVelocidad</span> <span class="code_operator">:</span> [[<span class="code_variable">t0</span>,<span class="code_variable">V0</span>],[<span class="code_variable">t1</span>,<span class="code_variable">V1</span>],[<span class="code_variable">t2</span>,<span class="code_variable">V2</span>],[<span class="code_variable">t3</span>,<span class="code_variable">V3</span>],[<span class="code_variable">t4</span>,<span class="code_variable">V4</span>]]<span class="code_endofline">;</span><BR>
+<span class="code_variable">grafDistancia</span> <span class="code_operator">:</span>  [[<span class="code_variable">t0</span>,<span class="code_variable">d0</span>],[<span class="code_variable">t1</span>,<span class="code_variable">d1</span>],[<span class="code_variable">t2</span>,<span class="code_variable">t2</span>],[<span class="code_variable">t3</span>,<span class="code_variable">d3</span>],[<span class="code_variable">t4</span>,<span class="code_variable">d4</span>]]<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{tiempo}[0,0.1,0.2,0.3,0.4]\]
+\[\tag{aceleracion}[0,10,8.7,7.569,6.58503]\]
+\[\tag{velocidad}[0,1.0,1.87,2.6269,3.285403]\]
+\[\tag{distancia}[0,0.05000000000000001,0.1935,0.4183450000000001,0.71396015]\]
+\[\tag{grafAceleracion}[[0,0],[0.1,10],[0.2,8.7],[0.3,7.569],[0.4,6.58503]]\]
+\[\tag{grafVelocidad}[[0,0],[0.1,1.0],[0.2,1.87],[0.3,2.6269],[0.4,3.285403]]\]
+\[\tag{grafDistancia}[[0,0],[0.1,0.05000000000000001],[0.2,0.2],[0.3,0.4183450000000001],[0.4,0.71396015]]\]
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;3.2 A continuación se grafican la aceleración, la velocidad y la distancia recorrida 
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i31)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">plot2d</span>([<span class="code_variable">discrete</span>,<span class="code_variable">tiempo</span>,<span class="code_variable">aceleracion</span>], [<span class="code_variable">style</span>, <span class="code_variable">points</span>],<BR>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<span class="code_variable">legend</span>,<span class="code_string">&quot;Caida con fricción: aceleración&quot;</span>],<BR>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<span class="code_variable">xlabel</span>,<span class="code_string">&quot;tiempo&quot;</span>], [<span class="code_variable">ylabel</span>,<span class="code_string">&quot;aceleración&quot;</span>])<span class="code_endofline">$</span> <BR>
+  </SPAN></TD>
+</TR></TABLE>
+
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i32)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">plot2d</span>([<span class="code_variable">discrete</span>,<span class="code_variable">tiempo</span>,<span class="code_variable">velocidad</span>], [<span class="code_variable">style</span>, <span class="code_variable">points</span>],<BR>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<span class="code_variable">legend</span>,<span class="code_string">&quot;Caida con fricción: velocidad&quot;</span>],<BR>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<span class="code_variable">xlabel</span>,<span class="code_string">&quot;tiempo&quot;</span>], [<span class="code_variable">ylabel</span>,<span class="code_string">&quot;velocidad&quot;</span>])<span class="code_endofline">$</span>  </SPAN></TD>
+</TR></TABLE>
+
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i33)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">plot2d</span>([<span class="code_variable">discrete</span>,<span class="code_variable">tiempo</span>,<span class="code_variable">distancia</span>], [<span class="code_variable">style</span>, <span class="code_variable">points</span>],<BR>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<span class="code_variable">legend</span>,<span class="code_string">&quot;Caida con fricción: distancia&quot;</span>],<BR>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<span class="code_variable">xlabel</span>,<span class="code_string">&quot;tiempo&quot;</span>], [<span class="code_variable">ylabel</span>,<span class="code_string">&quot;distancia&quot;</span>])<span class="code_endofline">$</span>  </SPAN></TD>
+</TR></TABLE>
+
+
+
+<!-- Subsection cell -->
+
+
+<P CLASS="subsect">
+ &nbsp;3.3 Finalmente se pueden escribir los archivos de datos para ser utilizado por otras aplicaciones
+</P>
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+(%i36)	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_function">write_data</span>(<span class="code_variable">grafAceleracion</span>, <span class="code_string">&quot;/Users/luisnunez/Dropbox/MisDocumentos/Programas/MaximaParaLN/IntroduccionFisica/Aceleracion.dat&quot;</span>)<span class="code_endofline">;</span><BR>
+<span class="code_function">write_data</span>(<span class="code_variable">grafVelocidad</span>, <span class="code_string">&quot;/Users/luisnunez/Dropbox/MisDocumentos/Programas/MaximaParaLN/IntroduccionFisica/Velocidad.dat&quot;</span>)<span class="code_endofline">;</span><BR>
+<span class="code_function">write_data</span>(<span class="code_variable">grafDistancia</span>, <span class="code_string">&quot;/Users/luisnunez/Dropbox/MisDocumentos/Programas/MaximaParaLN/IntroduccionFisica/Distancia.dat&quot;</span>)<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+\[\tag{%o34} \mathit{done}\]
+\[\tag{%o35} \mathit{done}\]
+\[\tag{%o36} \mathit{done}\]
+
+
+<!-- Code cell -->
+
+
+<TABLE><TR><TD>
+  <SPAN CLASS="prompt">
+ -->	
+  </SPAN></TD>
+  <TD><SPAN CLASS="input">
+<span class="code_endofline">;</span>  </SPAN></TD>
+</TR></TABLE>
+
+
+ <HR>
+ <SMALL> Created with <A HREF="https://wxMaxima-developers.github.io/wxmaxima/">wxMaxima</A>.</SMALL>
+ </BODY>
+</HTML>
