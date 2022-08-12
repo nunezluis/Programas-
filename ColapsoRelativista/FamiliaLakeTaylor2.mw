@@ -1,0 +1,2644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="14" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"><Zoom percentage="150"/></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Group labelreference="L5301" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Esta es la sustituci'on que se har'a en las expresiones para una m'etrica esf'erica</Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5312" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:grtw();</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5307" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grOptionMetricPath := `/Users/luisnunez/Documents/MisDocumentos/maple/gravitacion/metricas/`;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5285" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">qload(Lake1);</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group labelreference="L5300" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grcalc(g(dn,dn)); grdisplay(_);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5290" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grcalc(G(dn,dn)); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5296" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef(`T{a b} := G{a b}/(8*Pi) `);grcalc(T(up,up)); grcalc(T(dn,dn)); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5303" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Construyo la cuadrivelocidad</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5294" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef(`u{^a}:= [0,0,0,u0] `); grcalc(u(up)); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5302" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef( `normaU := g{a b}*u{^a}*u{^b}`  ); </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5287" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grcalc(normaU); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5275" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">solU := solve( grcomponent(  normaU) = -1 , u0);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5273" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">sol1:= op( 1, [solU] ); sol2:= op( 2, [solU] );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5309" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( u0 = sol1 , grcomponent(normaU)   );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5308" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( u0 = sol2 , grcomponent(normaU)   );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5305" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">u0:= sol1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5311" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grcalc(normaU); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5279" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Construyo el vector normal</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5291" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef(`n{^a}:= [n0,0,0,0] `); grcalc(n(up)); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5295" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef( `normaN := g{a b}*n{^a}*n{^b}`  ); grcalc(normaN); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5293" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">solN := solve( grcomponent(normaN) = -1 , n0);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5297" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">solN1:= op( 1, [solN] ); solN2:= op( 2, [solN] ); n0:= solN1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5278" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef(` ortogonal := n{^a}*u{a} = 0 `);grcalc(ortogonal);grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5286" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Las variables F'isicas quedan como</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5292" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef( ` density := T{a b}*u{^a}*u{^b}  ` ); grcalc(density); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5289" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rho:= grcomponent( density);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5277" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">La presi'on seg'un Lake</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5306" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false">grdef( ` PresLake := G{a b}*n{^a}*n{^b}/(8*Pi)  ` ); grcalc(PresLake); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5310" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PLake := grcomponent( PresLake);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5298" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">La presi'on seg'un Ana</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5276" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef( ` pressure:= (T{a b}*g{^a ^b} + density)/3 ` ); </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5274" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grcalc(pressure); grdisplay(_);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5304" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">P:= grcomponent( pressure); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5288" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">P;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5299" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef( ` Taa:= T{a b}*g{^a ^b} ` ); grcalc(Taa); grdisplay(_);</Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group labelreference="L5284" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef( `TT{^a ^b} := (rho0 +P0)*u{^a}*u{^b} + P0*g{^a ^b}`  ); grcalc(TT(up,dn));grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5283" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rho0 := rho; P0 := PLake;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5282" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grcalc(TT(up,dn));grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5281" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">grdef(`Ec{b} := TT{^a b ; a}`); grcalc(Ec(dn)); grdisplay(_);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5280" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV := grcomponent(Ec(dn),[1]);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5313" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5314" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5319" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L5709" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5708" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5717" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L5736" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5737" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5636" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5691" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5613" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5618" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5631" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5633" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5692" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5754" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5739" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5733" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5738" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5695" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5747" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5689" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5632" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5687" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5753" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5729" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5749" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5620" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5626" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5639" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5640" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5638" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5751" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5688" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5690" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5615" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5732" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5734" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5635" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5752" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5735" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5750" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5641" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5642" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5634" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5637" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5628" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5622" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5745" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5748" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5694" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5746" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5727" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5531" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5535" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5720" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5573" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5529" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5530" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5731" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5726" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5577" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5606" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5539" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5532" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5537" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5582" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5580" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5570" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5730" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5585" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5598" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5608" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5602" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5740" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5743" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5723" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5724" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5722" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5594" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5571" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5575" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5744" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5541" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5533" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5719" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5604" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5534" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5596" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5705" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5704" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5725" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5721" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5728" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5741" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5583" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5593" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5587" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5601" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5610" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5667" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5668" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5659" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5706" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5665" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5666" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5653" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5658" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5707" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5675" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5670" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5672" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5669" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5700" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5685" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5696" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5656" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5702" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5681" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5678" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5683" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5661" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5662" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5650" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5646" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5651" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5679" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5697" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5699" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5664" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5671" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5674" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5660" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5676" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5673" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5682" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5645" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5644" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5657" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5652" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5655" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5654" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5701" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5680" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5703" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5684" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5677" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5627" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5625" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5548" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5649" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5623" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5621" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5536" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5543" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5643" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5609" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5629" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5599" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5630" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5584" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5576" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5647" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5542" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5588" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5605" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5611" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5572" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5616" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5614" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5718" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5712" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5552" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5579" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5586" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5648" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5617" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5600" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5597" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5546" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5607" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5595" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5603" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5713" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5714" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5544" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5550" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5540" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5538" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5574" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5578" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5581" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5569" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5592" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5693" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5711" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5710" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5715" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5716" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5686" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5591" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5523" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5698" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5524" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5517" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5518" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5515" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5527" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5516" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5521" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5522" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5519" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5526" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5525" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5565" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5566" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5564" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5520" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5590" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5589" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5559" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5558" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5557" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5528" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5554" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5556" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5553" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5567" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5568" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5562" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5563" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5561" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5560" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5547" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5551" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5545" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5549" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5555" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5514" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L5349" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5348" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5363" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5323" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5351" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5350" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5357" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5360" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5322" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5339" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5346" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5344" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5347" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5329" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5331" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5325" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5358" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5327" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5337" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5340" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5333" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5355" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5354" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5366" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5367" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5365" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5335" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5326" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5324" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5352" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5345" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5343" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5362" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5338" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5342" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5336" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5368" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5369" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5361" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5364" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5359" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5356" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5330" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5334" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5328" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5332" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5341" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5397" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5396" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5411" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5371" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5399" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5398" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5405" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5408" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5370" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5387" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5394" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5392" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5395" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5377" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5379" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5373" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5406" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5375" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5385" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5388" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5381" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5403" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5402" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5414" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5415" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5413" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5383" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5374" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5372" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5400" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5393" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5391" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5410" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5386" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5390" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5384" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5416" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5417" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5409" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5412" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5407" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5404" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5378" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5382" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5376" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5380" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5389" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5445" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5444" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5459" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5419" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5447" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5446" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5453" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5456" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5418" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5435" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5442" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5440" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5443" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5425" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5427" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5421" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5454" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5423" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5433" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5436" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5429" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5451" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5450" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5462" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5463" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5461" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5431" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5422" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5420" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5448" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5441" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5439" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5458" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5434" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5438" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5432" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5464" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5465" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5457" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5460" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5455" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5452" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5426" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5430" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5424" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5428" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5437" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5493" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5492" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(TOV);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5507" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5467" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, ode);</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5495" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5494" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5501" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5504" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5466" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5483" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5490" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5488" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5491" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5473" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5475" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5469" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5502" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5471" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5481" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5484" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5477" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5499" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5498" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5510" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5511" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5509" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5479" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5470" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5468" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5496" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5489" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5487" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5506" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5482" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5486" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5480" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5512" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5513" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5505" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5508" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5503" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5500" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5474" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5478" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5472" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5476" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5485" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5320" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5315" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DEtools, adjoint, firint, intfactor,redode, mutest, odeadvisor):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5316" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TOV;</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5317" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mu := intfactor(TOV,m(r));</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5318" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">mutest(Mu, TOV);</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5228" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(TOV,m(r),Lie);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5272" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5230" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masaTOV:= (R^2-alpha*r^2)^(-(1/3)*N+2/3)*r^3*(3*N*alpha*r^2-R^2+alpha*r^2)^(-2/(3*(3*N+1))-(11/3)*N/(3*N+1))*(Int(-(N-2)*N*alpha^2*r*(R^2-alpha*r^2)^(-5/3+(1/3)*N)*(3*N*alpha*r^2-R^2+alpha*r^2)^((1/3)*(-1+2*N)/(3*N+1)), r)+ C1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5229" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masa:= (integralmasa + C1)/denominadormasa;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5231" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrando1 := -N*(N-2)*alpha^2*r*R^(2*(KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N +1)^LL*((r/R)^2 - 1/alpha)^KK*((r/R)^2 - 1/(alpha*(3*N +1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5232" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ConstIntegrando2 := -N*(N-2)*alpha^2*R^(2*(1+KK+LL))*(-1)^KK*alpha^(KK+LL)*(3*N+1)^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5233" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integrando2 := (u - 1/alpha)^KK*(u-1/(alpha*(3*N+1)))^LL;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5234" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylor1 := taylor(Integrando2,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5247" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integrandotaylorPoly := convert(integrandotaylor1,polynom):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5235" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Integral2 := int(integrandotaylorPoly,u):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5236" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">integralmasa1 := ConstIntegrando2*subs(u=r0^2,Integral2):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5237" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">denominador1 := ((-1)^BB*alpha^(BB+DD)*R^(2*(BB+DD)-3)*(3*N+1)^DD*((r0)^2 - 1/alpha)^BB*((r0)^2 - 1/(alpha*(3*N +1)))^DD)/r0^3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5238" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">masataylor1 := simplify((integralmasa1 +C1)/denominador1): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L5246" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">EcuacMBorde := M = subs(r0=1,simplify(masataylor1)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5245" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C1 := solve(EcuacMBorde,C1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5262" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">#BB := (N-2)/3;KK := (N-5)/3; DD := (11*N +2)/(9*N + 3); LL := (2*N -1)/(3*N +9); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5263" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"># para N &gt;&gt; 1</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5261" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">BB := (N)/3;KK := (N)/3; DD := (11)/(9); LL := (2)/(3); M := beta*R/2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5239" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5270" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(masataylor1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5271" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5269" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L5251" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi(r) := (1/2)*N*ln(1-alpha*r^2/R^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5250" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presion := simplify((1/4)*(masataylor1 +2*(diff(Phi(r), r))*r*masataylor1 -(diff(Phi(r), r))*r^2)/(r^3*Pi)):</Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L5249" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0 := simplify(subs(r=r0*R,Presion)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5255" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PresionBorde := 0 = simplify(subs(r0=1,Presionr0));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5253" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := solve(PresionBorde,alpha);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5254" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(Presionr0):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5264" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5260" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">PrensionCentral := simplify(subs(r0=0,Presionr0)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5267" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(PrensionCentral):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5268" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">collect(%,R);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5266" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5265" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5259" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Presionr0Adimensional := simplify(Presionr0/PrensionCentral);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5257" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):beta := 0.25;</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5258" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">animate( plot, [simplify(Presionr0),r0=0..1], N=5..50 );</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5256" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5252" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
