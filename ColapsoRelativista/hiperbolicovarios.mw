@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2018" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEmJlBoaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GIzYmLUYsNiVRImZGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGWS1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYsNiVRInJGJ0ZRRlMvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMkYyRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjJGOUY7Rj1GP0ZBRkNGRUZYRlotRiM2Ji1GLDYlUSVzaW5oRidGL0YyRlUtRmZuNiQtRiM2Ji1GLDYlUSgmdGhldGE7RidGL0YyRl1vRmBvRjJGMkYyRjI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRQaGlHRigqJi1JImZHRig2I0kickdGKCIiIi1JJXNpbmhHRiU2I0kmdGhldGFHRihGMzcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnRWN1YWMxRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNigtSSZtZnJhY0dGJDYoLUklbXN1cEdGJDYlLUY2Ni1RMCZEaWZmZXJlbnRpYWxEO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZqbi1JI21uR0YkNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GIzYlRmZuLUZaNiUtRiw2JVEickYnRi9GMkZcb0Zgb0Y5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZfcC8lKWJldmVsbGVkR0Y9LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRmlwLyUqbGluZWJyZWFrR1ElYXV0b0YnLUYsNiVRImZGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmluRltvLUZSNiQtRiM2JkZnby8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGaW5GW28tRiM2Ji1GLDYlUSVzaW5oRicvRjBGPUY5RmVxLUZSNiQtRiM2Ji1GLDYlUSgmdGhldGE7RidGaXJGOUZcckZfckY5RjlGOUY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZlcy1GVzYoLUYjNiYtRlo2JS1GUjYkLUYjNigtRlc2KEZmbi1GIzYlRmZuRmdvRjlGam9GXXBGYHBGYnBGZHBGYnFGZXFGaHFGOUY5RlxvRmBvRmFyRmRyRjktRiM2JkZicUZlcUZocUY5RmpvRl1wRmBwRmJwRmFzLUZXNihGZHJGZXRGam9GXXBGYHBGYnBGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdFY3VhYzFHRigsKComLUklZGlmZkdGJjYkLUkiZkdGKDYjSSJyR0YoLUkiJEdGJjYkRjYiIiMiIiItSSVzaW5oR0YlNiNJJnRoZXRhR0YoRjtGOyooKS1GMTYkRjNGNkY6RjtGPEY7RjMhIiJGOyomRjNGREY8RjtGOzcjLCgqJi1GMTYkRkJGNkY7RjxGO0Y7RkBGO0ZFRjs=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkmbWZyYWNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2KC1JJW1yb3dHRiQ2Ji1GLDYmLUkjbWlHRiQ2JVElc2luaEYnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTi1JKG1mZW5jZWRHRiQ2JC1GLDYmLUYxNiVRKCZ0aGV0YTtGJ0Y0RjcvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjZGN0Y3RjctRjs2LVExJkludmlzaWJsZVRpbWVzO0YnRjdGPkZARkJGREZGRkhGSkZMRk8tRlI2JC1GLDYoLUYsNiYtRlI2JC1GLDYoLUYjNigtSSVtc3VwR0YkNiUtRjs2LVEwJkRpZmZlcmVudGlhbEQ7RidGN0Y+RkBGQkZERkZGSEZKRkxGTy1JI21uR0YkNiRRIjJGJ0Y3LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GLDYlRmpvLUZobzYlLUYxNiVRInJGJy9GNVEldHJ1ZUYnL0Y4USdpdGFsaWNGJ0ZdcEZhcEY3LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZkcS8lKWJldmVsbGVkR0Y2LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRl5yLyUqbGluZWJyZWFrR1ElYXV0b0YnLUYxNiVRImZGJ0ZbcUZdcUY6LUZSNiQtRiw2JkZocEZZRmZuRjdGN0Y3RjdGaG4tRiw2JkZnckY6RmpyRjdGNy1GOzYtUScmcGx1cztGJ0Y3Rj5GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGZHMtRmhvNiUtRlI2JC1GLDYoLUYjNihGam8tRiw2JUZqb0ZocEY3Rl9xRmJxRmVxRmdxRmlxRmdyRjpGanJGN0Y3Rl1wRmFwRmBzLUZecDYkRmFxRjdGN0Y3RjdGXnNGX3FGYnFGZXFGZ3E=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMqKC1JJXNpbmhHRiU2I0kmdGhldGFHRigiIiIsKComLUklZGlmZkdGJjYkLUkiZkdGKDYjSSJyR0YoLUkiJEdGJjYkRjoiIiNGMUY3RjFGMSokKS1GNTYkRjdGOkY+RjFGMUYxRjFGMUY3ISIiNyMqKEYtRjEsKComLUY1NiRGQUY6RjFGN0YxRjFGP0YxRjFGMUYxRjdGQw==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtRiM2Ji1JI21pR0YkNiVRImZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTAmQXBwbHlGdW5jdGlvbjtGJy9GN1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkEvJSlzdHJldGNoeUdGQS8lKnN5bW1ldHJpY0dGQS8lKGxhcmdlb3BHRkEvJS5tb3ZhYmxlbGltaXRzR0ZBLyUnYWNjZW50R0ZBLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUC1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYwNiVRInJGJ0YzRjYvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkFGPUY9Rj0tRjo2LVEpJmVxdWFscztGJ0Y9Rj9GQkZERkZGSEZKRkwvRk9RLDAuMjc3Nzc3OGVtRicvRlJGXm8tSSZtc3FydEdGJDYjLUYjNiktRjo2LVEqJnVtaW51czA7RidGPUY/RkJGREZGRkhGSkZML0ZPUSwwLjIyMjIyMjJlbUYnL0ZSRmlvLUYjNigtSSNtbkdGJDYkUSIyRidGPS1GOjYtUTEmSW52aXNpYmxlVGltZXM7RidGPUY/RkJGREZGRkhGSkZMRk5GUS1GMDYlUSRfQzFGJ0YzRjZGYXBGWEY9LUY6Ni1RKCZtaW51cztGJ0Y9Rj9GQkZERkZGSEZKRkxGaG9Gam8tSSVtc3VwR0YkNiVGWEZdcC8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRjo2LVEnJnBsdXM7RidGPUY/RkJGREZGRkhGSkZMRmhvRmpvLUYjNiZGXXBGYXAtRjA2JVEkX0MyRidGM0Y2Rj1GPUY9LUY6Ni1RKCZjb21tYTtGJ0Y9Rj8vRkNGNUZERkZGSEZKRkxGTi9GUlEsMC4zMzMzMzMzZW1GJy1GIzYmRi1Gam4tRiM2JUZlb0Zgb0Y9Rj1GPQ==">NiQvLUkiZkc2IjYjSSJyR0YmKiQpLCgqKCIiIyIiIkkkX0MxR0YmRi5GKEYuISIiKiQpRihGLUYuRjAqJkYtRi5JJF9DMkdGJkYuRi4jRi5GLUYuL0YkLCRGKUYw</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnRWN1YWMyRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtRiM2KC1GUDYoLUY2Ni1RMCZEaWZmZXJlbnRpYWxEO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYjNiVGVi1GLDYlUSJyRidGL0YyRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmBvLyUpYmV2ZWxsZWRHRj0tSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNGVtRicvJSZkZXB0aEdGam8vJSpsaW5lYnJlYWtHUSVhdXRvRictRiw2JVEiQUYnRi9GMi1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y5RjtGPkZARkJGREZGRkhGWUZlbi1JKG1mZW5jZWRHRiQ2JC1GIzYmRmhuLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUY5LUYjNiZGY3BGZnBGaXBGOUZbb0Zeb0Zhb0Zjby1GNjYtUSkmZXF1YWxzO0YnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRlA2KC1GLDYlUSgmYWxwaGE7RicvRjBGPUY5LUYjNiYtRiM2KC1JI21uR0YkNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGWUZlbi1GLDYlUSJtRidGL0YyRmZyRmhuRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZgcy1JJW1zdXBHRiQ2JUZobkZici8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOUZbb0Zeb0Zhb0Zjb0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdFY3VhYzJHRigvKiYtSSVkaWZmR0YmNiQtSSJBR0YoNiNJInJHRihGNiIiIkYzISIiKiZJJmFscGhhR0YoRjcsJiooIiIjRjdJIm1HRihGN0Y2RjdGNyokKUY2Rj1GN0Y4Rjg3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtaUdGJDYlUSJBRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2Ji1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y/RjtGO0Y7LUY4Ni1RKSZlcXVhbHM7RidGO0Y9RkBGQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRlxvLUYjNigtRi42JVEkX0MxRidGMUY0LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUklbXN1cEdGJDYlRlYtSSZtZnJhY0dGJDYoLUYuNiVRKCZhbHBoYTtGJy9GMkY/RjstRiM2Ji1JI21uR0YkNiRRIjJGJ0Y7RmNvLUYuNiVRIm1GJ0YxRjRGOy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXnEvJSliZXZlbGxlZEdGPy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGY28tRmdvNiUtRlI2JC1GIzYnLUY4Ni1RKiZ1bWludXMwO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yMjIyMjIyZW1GJy9GUEZgckZgcC1GODYtUScmcGx1cztGJ0Y7Rj1GQEZCRkRGRkZIRkpGX3JGYXJGVkY7RjstRiM2JUZcckZpb0Y7RmNxRjtGOw==">Ly1JIkFHNiI2I0kickdGJSooSSRfQzFHRiUiIiIpRicsJCooI0YqIiIjRipJJmFscGhhR0YlRipJIm1HRiUhIiJGKkYqKSwmKiZGL0YqRjFGKkYyRidGKiwkRi1GMkYq</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L8" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEjQUFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYsNiVRJF9DMUYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlYtSSVtc3VwR0YkNiUtRiw2JVEickYnRi9GMi1JJm1mcmFjR0YkNigtRiw2JVEoJmFscGhhO0YnL0YwRj1GOS1GIzYmLUkjbW5HRiQ2JFEiMkYnRjlGUi1GLDYlUSJtRidGL0YyRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl1wLyUpYmV2ZWxsZWRHRj0vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRlItRlk2JS1JKG1mZW5jZWRHRiQ2JC1GIzYnLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZgcUZfby1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkhGX3FGYXFGZW5GOUY5LUYjNiVGXHFGaG5GOUZicEY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNBQUdGKCooSSRfQzFHRigiIiIpSSJyR0YoLCQqKCNGMCIiI0YwSSZhbHBoYUdGKEYwSSJtR0YoISIiRjBGMCksJiomRjZGMEY4RjBGOUYyRjAsJEY0RjlGMDcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L23" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L25" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L27" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L34" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L33" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L35" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L38" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L37" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L39" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L40" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L41" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L42" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L44" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La prueba</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L43" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L48" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L46" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L47" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L49" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L50" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L51" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L52" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L53" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L55" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L54" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L56" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX := X(r,theta); XXtilde := Xtilde(r,theta); OmegaX := Omega(r,theta); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L60" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX := X(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L61" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -a*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L57" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L58" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L59" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac28,X(r,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L62" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX1 := a*ln(-r^2+2*m*r+a^2*cosh(theta)^2)/(2*m)-a*ln(a^2*cosh(theta)^2-r^2)/(2*m)+_F1(r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L63" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L64" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX1,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L65" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L66" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := 8*a^3*m*r*(-1+cosh(2*theta))*(a^2*cosh(2*theta)+a^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L67" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L68" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L69" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := 8*a^3*m*r*(-1+cosh(2*theta))*(2*r^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L70" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L71" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L72" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(</Text-field>
+</Input>
+</Group>
+<Group labelreference="L109" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L110" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L115" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L112" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L113" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L117" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L120" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L122" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L79" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L128" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L125" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L84" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L118" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L87" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L82" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L86" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L89" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L88" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L123" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L92" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L93" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L94" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L95" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L96" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L97" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L98" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L131" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L100" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L99" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L102" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L104" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La verdadera axial</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L103" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L101" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L108" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L106" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L105" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L107" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L111" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L116" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L114" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L121" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L126" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L119" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L124" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX := X(r,theta); XXtilde := Xtilde(r,theta); OmegaX := Omega(r,theta); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L74" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX := X(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEjWFhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYsNiVRIlhGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlYtSShtZmVuY2VkR0YkNiQtRiM2KC1GLDYlUSJyRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGVS9GTlEsMC4zMzMzMzMzZW1GJy1GLDYlUSgmdGhldGE7RicvRjBGPUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYWEdGKC1JIlhHRig2JEkickdGKEkmdGhldGFHRig3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtc3FydEdGJDYjLUYjNigtSSVtc3VwR0YkNiUtRiw2JVEiYUYnRi9GMi1JI21uR0YkNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GX28tRiM2KEZaLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZ28tRiw2JVEibUYnRi9GMkZjby1GLDYlUSJyRidGL0YyRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZeb0Zgby1GVTYlRlxwRlpGaG5GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJmR0YoKiQpLCgqJClJImFHRigiIiMiIiJGNSooRjRGNUkibUdGKEY1SSJyR0YoRjVGNSokKUY4RjRGNSEiIiNGNUY0RjU3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L73" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -a*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEoWFh0aWxkZUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORlMtSSZtZnJhY0dGJDYoLUYjNigtRiw2JVEiYUYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORltvLUkobWZlbmNlZEdGJDYkLUYjNiYtSSVtc3VwR0YkNiVGWi1JI21uR0YkNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRlJGVC1GY282JS1GLDYlUSJyRidGL0YyRmVvRmlvRjlGOUZnbi1GIzYmLUYsNiVRJWNvc2hGJy9GMEY9RjktRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmpuRlxvLUZebzYkLUYjNiYtRiw2JVEoJnRoZXRhO0YnRmlwRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5RjlGOS1GIzYmRl9wRlxwLUYjNiZGYm9GZ24tRmNvNiVGZHBGZW9GaW9GOUY5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zkci8lKWJldmVsbGVkR0Y9Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShYWHRpbGRlR0YoLCQqKkkiYUdGKCIiIiwmKiQpRjAiIiNGMUYxKiQpSSJyR0YoRjVGMSEiIkYxLUklY29zaEdGJTYjSSZ0aGV0YUdGKEYxLCZGNkYxKiZGNEYxKUY6RjVGMUY5RjlGOTcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEnT21lZ2FYRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtRiM2Ki1JI21uR0YkNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZm4tRiw2JVEiYUYnRi9GMkZYLUYsNiVRIm1GJ0YvRjJGWC1GIzYmLUYsNiVRJWNvc2hGJy9GMEY9RjktRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmVuRmduLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEoJnRoZXRhO0YnRmNvRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5RjlGOS1GIzYmLUklbXN1cEdGJDYlLUYsNiVRInJGJ0YvRjJGVC8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZjcS1GIzYmLUZncDYlRmhuRlRGXHFGWC1GZ3A2JUZeb0ZURlxxRjlGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYHIvJSliZXZlbGxlZEdGPUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdPbWVnYVhHRigsJCosIiIjIiIiSSJhR0YoRjFJIm1HRihGMS1JJWNvc2hHRiU2I0kmdGhldGFHRihGMSwmKiQpSSJyR0YoRjBGMUYxKiYpRjJGMEYxKUY0RjBGMSEiIkY/RjE3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEmJnBzaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1JJm1mcmFjR0YkNigtRiM2Ki1JI21uR0YkNiRRIjJGJ0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGWS1GLDYlUSJyRicvRjBRJXRydWVGJy9GM1EnaXRhbGljRidGVS1JJW1zdXBHRiQ2JS1GLDYlUSJhRidGaG5Gam5GUS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGVS1GXW82JS1GIzYmLUYsNiVRJXNpbmhGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGMkY5RjtGPUY/RkFGQ0ZFRlhGWi1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYsNiVRKCZ0aGV0YTtGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMkYyRjJGUUZib0YyLUYjNiktRjY2LVEqJnVtaW51czA7RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRmJxLUZdbzYlRmVuRlFGYm8tRjY2LVEnJnBsdXM7RidGMkY5RjtGPUY/RkFGQ0ZFRmFxRmNxLUYjNihGUUZVLUYsNiVRIm1GJ0ZobkZqbkZVRmVuRjJGZnEtRiM2JkZcb0ZVLUZdbzYlLUYjNiYtRiw2JVElY29zaEYnRi9GMkZccEZfcEYyRlFGYm9GMkYyLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zccy8lKWJldmVsbGVkR0YxRjI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRwc2lHRigsJCosIiIjIiIiSSJyR0YoRjEpSSJhR0YoRjBGMSktSSVzaW5oR0YlNiNJJnRoZXRhR0YoRjBGMSwoKiQpRjJGMEYxISIiKihGMEYxSSJtR0YoRjFGMkYxRjEqJkYzRjEpLUklY29zaEdGJUY4RjBGMUYxRj1GMTcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L129" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoRWN1YWMyN0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYoLUkobWZlbmNlZEdGJDYkLUYjNigtSSZtZnJhY0dGJDYoLUY2Ni1RKyZQYXJ0aWFsRDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GaW4tRiM2JUZlbi1GLDYlUSJyRidGL0YyRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmVvLyUpYmV2ZWxsZWRHRj0tSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNGVtRicvJSZkZXB0aEdGX3AvJSpsaW5lYnJlYWtHUSVhdXRvRictRiw2JVEiWEYnRi9GMi1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y5RjtGPkZARkJGREZGRkhGaG5Gam4tRlQ2JC1GIzYoRl1vLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGaG4vRk5RLDAuMzMzMzMzM2VtRictRiw2JVEoJnRoZXRhO0YnL0YwRj1GOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGaG5Gam4tRlQ2JC1GIzYoLUklbXN1cEdGJDYlLUYsNiVRImFGJ0YvRjItSSNtbkdGJDYkUSIyRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmlzLUYjNihGXnNGYXItRiw2JVEibUYnRi9GMkZhckZdb0Y5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGaHNGanMtRmlyNiVGXW9GXnNGYnNGOUY5RmFyLUYjNiYtRiw2JVElc2luaEYnRltyRjlGW3EtRlQ2JC1GIzYmRmhxRlxyRl9yRjlGOUY5RjlGZXMtRlk2KC1GIzYqRl1vRmFyRmhyRmFyLUZpcjYlRmV0Rl5zRmJzRmFyLUZUNiQtRiM2Ji1GWTYoLUYjNipGXnNGYXJGW3NGYXJGXXRGYXJGZXRGOS1GIzYmRmN0RmB0LUYjNiZGaHJGYXItRmlyNiUtRiM2Ji1GLDYlUSVjb3NoRidGW3JGOUZbcUZqdEY5Rl5zRmJzRjlGOUZgb0Zjb0Zmb0Zob0Zlcy1GWTYoLUYjNiwtRl9zNiRRIjRGJ0Y5RmFyLUZpcjYlRltzLUZfczYkUSIzRidGOUZic0ZhckZddEZhckZgdkZhckZldEY5LUZpcjYlLUZUNiRGXHZGOUZec0Zic0Zgb0Zjb0Zmb0Zob0Y5RjlGOS1GIzYpLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSEZoc0Zqc0ZjdEZlc0ZbdEZlc0ZedkY5RmBvRmNvRmZvRmhvRjktRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYjNidGaXctRlk2KC1GIzYoRltzRmFyLUZUNiQtRiM2JkZockZgdEZjdEY5RjlGYXJGZXRGOUZcdkZgb0Zjb0Zmb0Zob0ZgdC1GWTYoLUYjNixGXnNGYXJGXndGYXJGZXhGYXJGYHZGYXJGZXRGOUZjd0Zgb0Zjb0Zmb0Zob0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShFY3VhYzI3R0YoLywmKigtSSVkaWZmR0YmNiQtSSJYR0YoNiRJInJHRihJJnRoZXRhR0YoRjciIiIsKCokKUkiYUdGKCIiI0Y5RjkqKEY+RjlJIm1HRihGOUY3RjlGOSokKUY3Rj5GOSEiIkY5LUklc2luaEdGJTYjRjhGOUY5KixGN0Y5RjxGOSlGREY+RjksKEZBRkNGP0Y5KiZGPEY5KS1JJWNvc2hHRiVGRkY+RjlGOUZDLCYqLEY+RjlGPUY5RkBGOUZERjksJkZBRjlGSkZDRkNGOSouIiIlRjkpRj0iIiRGOUZARjlGS0Y5KUZQRj5GQ0ZERjlGOUY5RjksJioqRj1GOSwmRjtGOUZBRkNGOUZERjlGUEZDRkMqLkY+RjlGU0Y5RlhGOUZLRjlGVUZDRkRGOUZDNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNiYtRiM2LC1JJW1zdXBHRiQ2JS1GMTYkLUYjNiYtRiM2Ji1JI21pR0YkNiVRImFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RicvRkhRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZSLyUpc3RyZXRjaHlHRlIvJSpzeW1tZXRyaWNHRlIvJShsYXJnZW9wR0ZSLyUubW92YWJsZWxpbWl0c0dGUi8lJ2FjY2VudEdGUi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRltvLUYjNiYtRkE2JVElY29zaEYnL0ZFRlJGTi1GSzYtUTAmQXBwbHlGdW5jdGlvbjtGJ0ZORlBGU0ZVRldGWUZlbkZnbkZpbkZcby1GMTYkLUYjNiYtRkE2JVEoJnRoZXRhO0YnRmNvRk4vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRlJGTkZORk5GTi1GSzYtUSgmbWludXM7RidGTkZQRlNGVUZXRllGZW5GZ24vRmpuUSwwLjIyMjIyMjJlbUYnL0Zdb0ZncC1GQTYlUSJyRidGREZHRk5GTi1JI21uR0YkNiRRIjJGJ0ZOLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZKLUY4NiUtRjE2JC1GIzYmRj4tRks2LVEnJnBsdXM7RidGTkZQRlNGVUZXRllGZW5GZ25GZnBGaHBGaXBGTkZORlxxRmBxRkotRjE2JC1GIzYoLUY4NiVGQEZccUZgcUZpcS1GIzYoRlxxRkotRkE2JVEibUYnRkRGR0ZKRmlwRk5GY3AtRjg2JUZpcEZccUZgcUZORk5GSi1GMTYkLUYjNiktRks2LVEqJnVtaW51czA7RidGTkZQRlNGVUZXRllGZW5GZ25GZnBGaHBGZ3JGaXFGYnJGaXEtRiM2JkZgckZKLUY4NiVGXm9GXHFGYHFGTkZORk5GSi1GMTYkLUYjNigtRiw2KC1GSzYtUSsmUGFydGlhbEQ7RidGTkZQRlNGVUZXRllGZW5GZ25GaW5GXG8tRiM2JUZqc0ZpcEZOLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZkdC8lKWJldmVsbGVkR0ZSLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRl51LyUqbGluZWJyZWFrR1ElYXV0b0YnLUZBNiVRIlhGJ0ZERkdGZG8tRjE2JC1GIzYoRmlwLUZLNi1RIixGJ0ZORlAvRlRGRkZVRldGWUZlbkZnbkZpbi9GXW9RLDAuMzMzMzMzM2VtRidGW3BGXnBGYXBGTkZORk5GTkZORmlxLUYjNjBGXHFGSi1GMTYkLUYjNiZGXm9GY3AtRl1xNiRGYXRGTkZORk5GSi1GMTYkLUYjNiZGXm9GaXFGanZGTkZORkotRjE2JC1GIzYmRmBzRmlxRmdyRk5GTkZKLUY4NiVGQC1GXXE2JFEiM0YnRk5GYHFGSkZkckZKRmlwRk5GTkZORkotRiM2Ji1GQTYlUSVzaW5oRidGY29GTkZkb0Znb0ZORk4tRiM2KEY3RkpGY3FGSkZpckZORl90RmJ0RmV0Rmd0LUZLNi1RKSZlcXVhbHM7RidGTkZQRlNGVUZXRllGZW5GZ24vRmpuUSwwLjI3Nzc3NzhlbUYnL0Zdb0ZkeC1GIzYlRl1zLUYsNigtRiM2KkZARkpGYHdGSkZpd0ZKLUYxNiQtRiM2JkZgckZjcEZnckZORk5GTi1GIzYmRjdGSkZjcUZORl90RmJ0RmV0Rmd0Rk5GTg==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvKiwsJiosKSwmKiZJImFHRigiIiItSSVjb3NoR0YlNiNJJnRoZXRhR0YoRjRGNEkickdGKCEiIiIiI0Y0KSwmRjJGNEY5RjRGO0Y0LCgqJClGM0Y7RjRGNCooRjtGNEkibUdGKEY0RjlGNEY0KiQpRjlGO0Y0RjpGNCwoRkNGOkZBRjQqJkZARjQpRjVGO0Y0RjRGNC1JJWRpZmZHRiY2JC1JIlhHRig2JEY5RjhGOUY0RjQqMEY7RjQsJkY1RjRGNEY6RjQsJkY1RjRGNEY0RjQsJkZGRjRGQ0Y0RjQpRjMiIiRGNEZCRjRGOUY0RjRGNC1JJXNpbmhHRiVGN0Y0RjBGOkY8RjpGRUY6LCQqLkYzRjRGUUY0RlRGNEYwRjpGPEY6LCZGP0Y0RkNGOkY0RjpGKw==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L127" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoRWN1YWMyOEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNigtSSZtZnJhY0dGJDYoLUY2Ni1RKyZQYXJ0aWFsRDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GaW4tRiM2JUZlbi1GLDYlUSgmdGhldGE7RicvRjBGPUY5RjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmZvLyUpYmV2ZWxsZWRHRj0tSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNGVtRicvJSZkZXB0aEdGYHAvJSpsaW5lYnJlYWtHUSVhdXRvRictRiw2JVEiWEYnRi9GMi1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y5RjtGPkZARkJGREZGRkhGaG5Gam4tRlQ2JC1GIzYoLUYsNiVRInJGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZobi9GTlEsMC4zMzMzMzMzZW1GJ0Zdby8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGaG5Gam4tRiM2Ji1GLDYlUSVzaW5oRidGYG9GOUZccS1GVDYkLUYjNiZGXW9GXHJGX3JGOUY5RjlGOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmFzLUZZNigtRiM2Li1JI21uR0YkNiRRIjRGJ0Y5RmFyLUklbXN1cEdGJDYlRmNxLUZoczYkUSIyRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGYXItRlx0NiUtRiw2JVEiYUYnRi9GMi1GaHM2JFEiM0YnRjlGYXRGYXItRlx0NiVGZHJGXnRGYXRGYXItRiw2JVEibUYnRi9GMkZhci1GIzYmLUYsNiVRJWNvc2hGJ0Zgb0Y5RlxxRmlyRjlGOS1GIzYmLUZUNiQtRiM2KS1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkhGYHNGYnNGW3QtRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRmBzRmJzLUYjNihGXnRGYXJGXnVGYXJGY3FGOUZfdi1GIzYmLUZcdDYlRmZ0Rl50RmF0RmFyLUZcdDYlRmF1Rl50RmF0RjlGOUY5RmFyLUZcdDYlLUZUNiQtRiM2JkZbdEZdc0ZkdkY5RjlGXnRGYXRGOUZhb0Zkb0Znb0Zpb0Y5LUY2Ni1RKSZlcXVhbHM7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GIzYnRlx2LUZZNigtRiM2KkZedEZhckZmdEZhckZjcUZhckZhdUY5Rl53RmFvRmRvRmdvRmlvRl1zLUZZNigtRiM2LEZedEZhckZmdEZhci1GVDYkLUYjNiZGZnZGXXNGW3RGOUY5RmFyRmF1RmFyRmNxRjlGanZGYW9GZG9GZ29GaW9GOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SShFY3VhYzI4R0YoLywmKiYtSSVkaWZmR0YmNiQtSSJYR0YoNiRJInJHRihJJnRoZXRhR0YoRjgiIiItSSVzaW5oR0YlNiNGOEY5RjkqMiIiJUY5KUY3IiIjRjkpSSJhR0YoIiIkRjkpRjpGQEY5LCgqJEY/RjkhIiIqKEZARjlJIm1HRihGOUY3RjlGOSomKUZCRkBGOSktSSVjb3NoR0YlRjxGQEY5RjlGR0ZJRjlGTUY5KSwmRkZGOUZKRkdGQEZHRkcsJiosRkBGOUZCRjlGN0Y5Rk1GOUZQRkdGRyouRkBGOUZCRjksJiokRktGOUY5RkZGR0Y5Rk1GOUZPRkdGN0Y5Rkc3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L130" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac28,X(r,theta));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtaUdGJDYlUSJYRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LUY4Ni1RIixGJ0Y7Rj0vRkFGM0ZCRkRGRkZIRkpGTC9GUFEsMC4zMzMzMzMzZW1GJy1GLjYlUSgmdGhldGE7RicvRjJGP0Y7LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y/RjtGO0Y7LUY4Ni1RKSZlcXVhbHM7RidGO0Y9RkBGQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRmZvLUYjNi4tSSZtZnJhY0dGJDYoLUYjNiYtRi42JVEiYUYnRjFGNC1GODYtUTEmSW52aXNpYmxlVGltZXM7RidGO0Y9RkBGQkZERkZGSEZKRkxGTy1GIzYmLUYuNiVRI2xuRidGXG9GO0Y3LUZSNiQtRiM2KS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGYnEtSSVtc3VwR0YkNiVGVi1JI21uR0YkNiRRIjJGJ0Y7LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GODYtUScmcGx1cztGJ0Y7Rj1GQEZCRkRGRkZIRkpGYXFGY3EtRiM2KEZncUZicC1GLjYlUSJtRidGMUY0RmJwRlZGO0Zeci1GIzYmLUZlcTYlRl9wRmdxRltyRmJwLUZlcTYlLUYjNiYtRi42JVElY29zaEYnRlxvRjtGNy1GUjYkLUYjNiZGaW5GXW9GYG9GO0Y7RjtGZ3FGW3JGO0Y7RjtGO0Y7LUYjNiZGZ3FGYnBGY3JGOy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXHQvJSliZXZlbGxlZEdGP0Zeci1GW3A2KEZfcC1GIzYmLUYjNiZGX3BGYnBGXHNGO0ZeckZWRjtGZ3NGanNGXXRGX3QtRjg2LVEoJm1pbnVzO0YnRjtGPUZARkJGREZGRkhGSkZhcUZjcS1GW3A2KC1GIzYmRl9wRmJwLUYjNiZGZ3BGNy1GUjYkRmN0RjtGO0Y7RmVzRmdzRmpzRl10Rl90Rmd0LUZbcDYoRl9wLUYjNiZGZXRGZ3RGVkY7RmdzRmpzRl10Rl90Rmd0LUZbcDYoLUYjNiZGX3BGYnAtRiM2JkZncEY3LUZSNiRGZHVGO0Y7RjtGZXNGZ3NGanNGXXRGX3RGXnItRiM2Ji1GLjYlUSRfRjFGJ0YxRjRGNy1GUjYkLUYjNiZGVkZdb0Zgb0Y7RjtGO0Y7Rjs=">Ly1JIlhHNiI2JEkickdGJUkmdGhldGFHRiUsLioqIyIiIiIiI0YsSSJhR0YlRixJIm1HRiUhIiItSSNsbkc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJTYjLCgqJClGJ0YtRixGMCooRi1GLEYvRixGJ0YsRiwqJilGLkYtRiwpLUklY29zaEdGMzYjRihGLUYsRixGLEYsKiZGLkYsLCYqJkYuRixGPkYsRixGJ0YsRjBGLCoqRitGLEYuRixGL0YwLUYyNiNGQkYsRjAqJkYuRiwsJkZDRixGJ0YwRjBGMCoqRitGLEYuRixGL0YwLUYyNiNGSEYsRjAtSSRfRjFHRiU2I0YnRiw=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L76" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX1 := a*ln(-r^2+2*m*r+a^2*cosh(theta)^2)/(2*m)-a*ln(a^2*cosh(theta)^2-r^2)/(2*m)+_F1(r);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEkWFgxRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtRiM2Ji1GLDYlUSJhRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZW4tRiM2Ji1GLDYlUSNsbkYnL0YwRj1GOS1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y5RjtGPkZARkJGREZGRkhGWkZmbi1JKG1mZW5jZWRHRiQ2JC1GIzYpLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZpby1JJW1zdXBHRiQ2JS1GLDYlUSJyRidGL0YyLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZob0Zqby1GIzYoRmFwRlctRiw2JVEibUYnRi9GMkZXRl5wRjlGaHAtRiM2Ji1GXHA2JUZURmFwRmVwRlctRlxwNiUtRiM2Ji1GLDYlUSVjb3NoRidGXG9GOUZdby1GYW82JC1GIzYmLUYsNiVRKCZ0aGV0YTtGJ0Zcb0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUY5RmFwRmVwRjlGOUY5RjlGOS1GIzYmRmFwRldGXXFGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXnMvJSliZXZlbGxlZEdGPS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRmhvRmpvLUZQNigtRiM2JkZURlctRiM2JkZpbkZdby1GYW82JC1GIzYmRmBxRmNzRltwRjlGOUY5RjlGZ3JGaXJGXHNGX3NGYXNGaHAtRiM2Ji1GLDYlUSRfRjFGJ0YvRjJGXW8tRmFvNiQtRiM2JkZecEZickZlckY5RjlGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRYWDFHRigsKCoqIyIiIiIiI0YxSSJhR0YoRjFJIm1HRighIiItSSNsbkdGJTYjLCgqJClJInJHRihGMkYxRjUqKEYyRjFGNEYxRjxGMUYxKiYpRjNGMkYxKS1JJWNvc2hHRiU2I0kmdGhldGFHRihGMkYxRjFGMUYxKipGMEYxRjNGMS1GNzYjLCZGPkYxRjpGNUYxRjRGNUY1LUkkX0YxR0YoNiNGPEYxNyNGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L75" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkmbWZyYWNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2KC1JJW1yb3dHRiQ2KS1JI21vR0YkNi1RKiZ1bWludXMwO0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZGLUYsNiYtSSNtaUdGJDYlUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvRjNRJ2l0YWxpY0YnLUYvNi1RMSZJbnZpc2libGVUaW1lcztGJ0YyRjVGOEY6RjxGPkZARkIvRkVRJjAuMGVtRicvRkhGWC1GLDYmLUZMNiVRI2xuRicvRlBGN0YyLUYvNi1RMCZBcHBseUZ1bmN0aW9uO0YnRjJGNUY4RjpGPEY+RkBGQkZXRlktSShtZmVuY2VkR0YkNiQtRiw2Ji1GXm82JC1GLDYmLUYsNiZGS0ZULUYsNiYtRkw2JVElY29zaEYnRmluRjJGam4tRl5vNiQtRiw2Ji1GTDYlUSgmdGhldGE7RidGaW5GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGN0YyRjJGMkYyLUYvNi1RKCZtaW51cztGJ0YyRjVGOEY6RjxGPkZARkJGREZHLUZMNiVRInJGJ0ZPRlJGMkYyRlQtRl5vNiQtRiw2JkZmby1GLzYtUScmcGx1cztGJ0YyRjVGOEY6RjxGPkZARkJGREZHRlxxRjJGMkYyRjJGMkYyRmNxLUYsNigtSSNtbkdGJDYkUSIyRidGMkZULUYsNiYtRkw2JVEkX0YxRidGT0ZSRmpuLUZebzYkLUYsNiZGXHFGZHBGZ3BGMkYyRjJGVC1GTDYlUSJtRidGT0ZSRjJGY3EtRiw2JkZLRlQtRiw2JkZmbkZqbi1GXm82JC1GLDYpRi4tSSVtc3VwR0YkNiVGXHFGaHEvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRmNxLUYsNihGaHFGVEZlckZURlxxRjJGY3EtRiw2Ji1GYXM2JUZLRmhxRmNzRlQtRmFzNiVGaG9GaHFGY3NGMkYyRjJGMkYyRjItRiw2JkZocUZURmVyRjIvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmV0LyUpYmV2ZWxsZWRHRjc=">LCQqKCMiIiIiIiNGJSwoKiZJImFHNiJGJS1JI2xuRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YqNiMqJiwmKiZGKUYlLUklY29zaEdGLTYjSSZ0aGV0YUdGKkYlRiVJInJHRiohIiJGJSwmRjNGJUY4RiVGJUYlRjkqKEYmRiUtSSRfRjFHRio2I0Y4RiVJIm1HRipGJUYlKiZGKUYlLUYsNiMsKCokKUY4RiZGJUY5KihGJkYlRj9GJUY4RiVGJSomKUYpRiZGJSlGNEYmRiVGJUYlRiVGJUY/RjlGJQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L78" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX1,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta);simplify(%);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEpRWN1YWMyNzFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiYtRiM2KC1JKG1mZW5jZWRHRiQ2JC1GIzYoLUkmbWZyYWNHRiQ2KC1GIzYmLUYsNiVRImFGJ0YvRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZeby1GVDYkLUYjNictRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmhvLUYjNiYtSSNtbkdGJDYkUSIyRidGOUZqbi1GLDYlUSJyRidGL0YyRjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRmdvRmlvLUYjNiZGXHBGam4tRiw2JVEibUYnRi9GMkY5RjlGOUY5LUYjNihGXHBGam5GaHBGam4tRlQ2JC1GIzYpRmRvLUklbXN1cEdGJDYlRmBwRlxwLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZjcC1GIzYoRlxwRmpuRmhwRmpuRmBwRjlGY3AtRiM2Ji1GYnE2JUZnbkZccEZkcUZqbi1GYnE2JS1GIzYmLUYsNiVRJWNvc2hGJy9GMEY9RjktRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRl1vRl9vLUZUNiQtRiM2Ji1GLDYlUSgmdGhldGE7RidGZHJGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUZccEZkcUY5RjlGOUY5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zpcy8lKWJldmVsbGVkR0Y9RmNwLUZZNigtRiM2JkZnbkZqbkZgcEY5LUYjNiYtRlQ2JC1GIzYmRmlxLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGZ29GaW9GYXFGOUY5RmpuRmhwRjlGZHNGZ3NGanNGXHRGY3AtRiM2KC1GWTYoLUY2Ni1RMCZEaWZmZXJlbnRpYWxEO0YnRjlGO0Y+RkBGQkZERkZGSEZdb0Zfby1GIzYlRl91RmBwRjlGZHNGZ3NGanNGXHQtSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNGVtRicvJSZkZXB0aEdGaXUvJSpsaW5lYnJlYWtHUSVhdXRvRictRiw2JVEkX0YxRidGL0YyRmVyLUZUNiQtRiM2JkZgcEZfc0Zic0Y5RjlGOUY5RjlGam4tRlQ2JC1GIzYoRltyRmNwRmdxRmh0RmFxRjlGOUZqbi1GIzYmLUYsNiVRJXNpbmhGJ0ZkckY5RmVyRmhyRjlGOUZjcC1GWTYoLUYjNipGYHBGam5GW3JGam4tRmJxNiVGXXdGXHBGZHFGam4tRlQ2JC1GIzYmLUZZNigtRiM2KkZccEZqbkZnbkZqbkZocEZqbkZdd0Y5LUYjNiZGYXFGaHRGaXFGOUZkc0Znc0Zqc0ZcdEZjcC1GWTYoLUYjNiwtRl1wNiRRIjRGJ0Y5RmpuLUZicTYlRmduLUZdcDYkUSIzRidGOUZkcUZqbkZocEZqbkZdckZqbkZdd0Y5LUZicTYlLUZUNiRGYHhGOUZccEZkcUZkc0Znc0Zqc0ZcdEY5RjlGOUZfcUZkc0Znc0Zqc0ZcdEY5LUY2Ni1RKSZlcXVhbHM7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GIzYnRmRvLUZZNigtRiM2KEZnbkZqbi1GVDYkLUYjNiZGW3JGaHRGYXFGOUY5RmpuRl13RjlGYHhGZHNGZ3NGanNGXHRGaHQtRlk2KC1GIzYsRlxwRmpuRml4RmpuRlt6RmpuRl1yRmpuRl13RjlGXnlGZHNGZ3NGanNGXHRGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSlFY3VhYzI3MUdGKC8sJiooLCgqLCMiIiIiIiNGNEkiYUdGKEY0SSJtR0YoISIiLCYqJkY1RjRJInJHRihGNEY4KiZGNUY0RjdGNEY0RjQsKCokKUY7RjVGNEY4KihGNUY0RjdGNEY7RjRGNComKUY2RjVGNCktSSVjb3NoR0YlNiNJJnRoZXRhR0YoRjVGNEY0RjhGNCoqRjZGNEY7RjQsJkZBRjRGPkY4RjhGN0Y4RjQtSSVkaWZmR0YmNiQtSSRfRjFHRig2I0Y7RjtGNEY0LCgqJEZCRjRGNEZARjRGPkY4RjQtSSVzaW5oR0YlRkZGNEY0KixGO0Y0RkJGNClGUkY1RjRGPUY4LCYqLEY1RjRGNkY0RjdGNEZSRjQsJkY+RjRGQUY4RjhGNCouIiIlRjQpRjYiIiRGNEY3RjRGQ0Y0KUZYRjVGOEZSRjRGNEY0RjQsJioqRjZGNCwmRlFGNEY+RjhGNEZSRjRGWEY4RjgqLkY1RjRGZW5GNEZqbkY0RkNGNEZnbkY4RlJGNEY4NyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1GIzYmLUYjNiYtSSNtaUdGJDYlUSVzaW5oRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMCZBcHBseUZ1bmN0aW9uO0YnRjkvJSZmZW5jZUdGOC8lKnNlcGFyYXRvckdGOC8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZQLUkobWZlbmNlZEdGJDYkLUYjNiYtRjM2JVEoJnRoZXRhO0YnRjZGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGOEY5RjlGOS1GPTYtUTEmSW52aXNpYmxlVGltZXM7RidGOUZARkJGREZGRkhGSkZMRk5GUS1GVDYkLUYjNiYtRiM2LC1JJW1zdXBHRiQ2JS1GVDYkLUYjNiYtRiM2Ji1GMzYlUSJhRicvRjdRJXRydWVGJy9GOlEnaXRhbGljRidGam4tRiM2Ji1GMzYlUSVjb3NoRidGNkY5RjxGU0Y5RjktRj02LVEoJm1pbnVzO0YnRjlGQEZCRkRGRkZIRkpGTC9GT1EsMC4yMjIyMjIyZW1GJy9GUkZccS1GMzYlUSJyRidGX3BGYXBGOUY5LUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRmpuLUZkbzYlLUZUNiQtRiM2JkZqby1GPTYtUScmcGx1cztGJ0Y5RkBGQkZERkZGSEZKRkxGW3FGXXFGXnFGOUY5RmFxRmVxRmpuLUZUNiQtRiM2KC1GZG82JUZccEZhcUZlcUZeci1GIzYoRmFxRmpuLUYzNiVRIm1GJ0ZfcEZhcEZqbkZecUY5RmhwLUZkbzYlRl5xRmFxRmVxRjlGOUZqbi1GVDYkLUYjNiktRj02LVEqJnVtaW51czA7RidGOUZARkJGREZGRkhGSkZMRltxRl1xRlxzRl5yRmdyRl5yLUYjNiZGZXJGam4tRmRvNiVGY3BGYXFGZXFGOUY5RjlGam4tRlQ2JC1GIzYoLUYsNigtRj02LVEwJkRpZmZlcmVudGlhbEQ7RidGOUZARkJGREZGRkhGSkZMRk5GUS1GIzYlRl90Rl5xRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRml0LyUpYmV2ZWxsZWRHRjgtSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNGVtRicvJSZkZXB0aEdGY3UvJSpsaW5lYnJlYWtHUSVhdXRvRictRjM2JVEkX0YxRidGX3BGYXBGPC1GVDYkLUYjNiZGXnFGZW5GaG5GOUY5RjlGOUY5Rl5yLUYjNigtRlQ2JC1GIzYsLUYjNihGZXJGam4tRlQ2JC1GIzYoRmVyRl5yLUYjNigtRmJxNiRRIjRGJ0Y5RmpuRmlyRmpuRl5xRjlGaHBGXHNGOUY5RmpuRmdzRjlGaHAtRiM2KkZhcUZqbkZlckZqbkZpckZqbkZecUY5RmhwLUYjNiZGZXJGam5GXHNGOUZocC1GIzYoRmFxRmpuRmlyRmpuLUZkbzYlRl5xLUZicTYkUSIzRidGOUZlcUY5Rl5yLUZkbzYlRl5xRmF3RmVxRjlGOUZqbkZccEZqbi1GVDYkLUYjNiZGZXNGXnJGXHNGOUY5RjlGOUY5RjktRiM2KEZjb0ZqbkZocUZqbkZec0Y5RmR0Rmd0Rmp0Rlx1LUY9Ni1RKSZlcXVhbHM7RidGOUZARkJGREZGRkhGSkZML0ZPUSwwLjI3Nzc3NzhlbUYnL0ZSRlt5LUYjNiVGYnMtRiw2KC1GIzYqRlxwRmpuRmF4RmpuRjBGam4tRlQ2JC1GIzYmRmVyRmhwRlxzRjlGOUY5LUYjNiZGY29Gam5GaHFGOUZkdEZndEZqdEZcdUY5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvKiwtSSVzaW5oR0YlNiNJJnRoZXRhR0YoIiIiLCYqLCksJiomSSJhR0YoRjItSSVjb3NoR0YlRjBGMkYySSJyR0YoISIiIiIjRjIpLCZGN0YyRjtGMkY9RjIsKCokKUY4Rj1GMkYyKihGPUYySSJtR0YoRjJGO0YyRjIqJClGO0Y9RjJGPEYyLChGRUY8RkNGMiomRkJGMilGOUY9RjJGMkYyLUklZGlmZkdGJjYkLUkkX0YxR0YoNiNGO0Y7RjJGMiooLCwqKEZCRjIsKEZBRjIqKCIiJUYyRkRGMkY7RjJGMkZFRjxGMkZJRjJGMioqRj1GMkZCRjJGREYyRjtGMkY8KiZGQkYyRkZGMkY8KihGPUYyRkRGMilGOyIiJEYyRjwqJClGO0ZVRjJGMkYyRjhGMiwmRkhGMkZFRjJGMkYyRjJGNUY8Rj5GPEZHRjwsJCouRjhGMkZnbkYyRi5GMkY1RjxGPkY8LCZGQUYyRkVGPEYyRjxGKw==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L77" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(r));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtaUdGJDYlUSRfRjFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTAmQXBwbHlGdW5jdGlvbjtGJy9GNVEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj8vJSlzdHJldGNoeUdGPy8lKnN5bW1ldHJpY0dGPy8lKGxhcmdlb3BHRj8vJS5tb3ZhYmxlbGltaXRzR0Y/LyUnYWNjZW50R0Y/LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTi1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYuNiVRInJGJ0YxRjQvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj9GO0Y7RjstRjg2LVEpJmVxdWFscztGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjc3Nzc3OGVtRicvRlBGXG8tRiM2KC1JJm1mcmFjR0YkNigtRiM2Ji1GLjYlUSJhRidGMUY0LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYjNiYtRi42JVEjbG5GJy9GMkY/RjtGNy1GUjYkLUYjNigtRiM2Ji1JJW1zdXBHRiQ2JUZlby1JI21uR0YkNiRRIjJGJ0Y7LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zoby1GIzYmLUYuNiVRJWNvc2hGJ0ZgcEY7RjctRlI2JC1GIzYmRmpwRmhvLUYuNiVRKCZ0aGV0YTtGJ0ZgcEY7RjtGO0Y7RjstRjg2LVEnJnBsdXM7RidGO0Y9RkBGQkZERkZGSEZKL0ZNUSwwLjIyMjIyMjJlbUYnL0ZQRmFyRmdwLUY4Ni1RKCZtaW51cztGJ0Y7Rj1GQEZCRkRGRkZIRkpGYHJGYnItRiM2JkZqcEZoby1GaHA2JUZWRmpwRl5xRjtGO0Y7RjtGOy1GLjYlUSJtRidGMUY0LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zicy8lKWJldmVsbGVkR0Y/RmNyLUZhbzYoLUYjNiZGZW9GaG8tRiM2JkZdcEY3LUZSNiQtRiM2KkZlcEZdckZncEZdci1GIzYoLUZbcTYkUSI0RidGO0Zob0ZqckZob0ZWRjtGY3JGZnJGO0Y7RjtGO0ZqckZdc0Zgc0Zjc0Zlc0Zdci1GLjYlUSRfQzFGJ0YxRjRGO0Y7">Ly1JJF9GMUc2IjYjSSJyR0YlLCgqKEkiYUdGJSIiIkkibUdGJSEiIi1JI2xuRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YlNiMsKComKUYqIiIjRistSSVjb3NoR0YwNiMsJComRjdGK0kmdGhldGFHRiVGK0YrRitGKyokRjZGK0YrKiZGN0YrKUYnRjdGK0YtRitGKyooRipGK0YsRi0tRi82IywqRjVGK0Y+RisqKCIiJUYrRixGK0YnRitGK0Y/Ri1GK0YtSSRfQzFHRiVGKw==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L81" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := 8*a^3*m*r*(-1+cosh(2*theta))*(a^2*cosh(2*theta)+a^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEnaW50ZWcxRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtRiM2Li1JI21uR0YkNiRRIjhGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZm4tSSVtc3VwR0YkNiUtRiw2JVEiYUYnRi9GMi1GVTYkUSIzRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGWC1GLDYlUSJtRidGL0YyRlgtRiw2JVEickYnRi9GMkZYLUkobWZlbmNlZEdGJDYkLUYjNictRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmNwLUZVNiRRIjFGJ0Y5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZicEZkcC1GIzYmLUYsNiVRJWNvc2hGJy9GMEY9RjktRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmVuRmduLUZbcDYkLUYjNiYtRlU2JFEiMkYnRjlGWC1GLDYlUSgmdGhldGE7RidGYHFGOUY5RjlGOUY5RjlGWC1GW3A2JC1GIzYmLUYjNiYtRmluNiVGW29GaHFGYW9GWEZbcUY5RmhwRmRyRjlGOUY5LUYjNigtRltwNiQtRiM2KEZkckZocC1GIzYoRmhxRlhGZG9GWEZnb0Y5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGYnBGZHAtRmluNiVGZ29GaHFGYW9GOUY5RlgtRmluNiUtRltwNiQtRiM2KEZickZocEZkckZecy1GIzYmRmhxRlhGYXNGOUY5RjlGaHFGYW9GWC1GW3A2JC1GIzYqRmJyRmhwRmRyRmhwLUYjNigtRlU2JFEiNEYnRjlGWEZkb0ZYRmdvRjlGXnNGaXNGOUY5RjkvJS5saW5ldGhpY2tuZXNzR0ZncC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZodC8lKWJldmVsbGVkR0Y9Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdpbnRlZzFHRigsJCo0IiIpIiIiKUkiYUdGKCIiJEYxSSJtR0YoRjFJInJHRihGMSwmRjEhIiItSSVjb3NoR0YlNiMsJComIiIjRjFJJnRoZXRhR0YoRjFGMUYxRjEsJiomKUYzRj5GMUY5RjFGMSokRkJGMUYxRjEsKEZDRjEqKEY+RjFGNUYxRjZGMUYxKiQpRjZGPkYxRjhGOCksKEZBRjFGQ0YxKiZGPkYxRkdGMUY4Rj5GOCwqRkFGMUZDRjEqKCIiJUYxRjVGMUY2RjFGMUZKRjhGOEYxNyNGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L80" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEpaW50Z3JhbDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZTLUkmbWZyYWNHRiQ2KC1GIzYoLUkobWZlbmNlZEdGJDYkLUYjNidGTy1GIzYyLUkjbW5HRiQ2JFEiNEYnRjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZjby1JJm1zcXJ0R0YkNiMtRlxvNiRRIjJGJ0Y5Rl9vLUZlbjYkLUYjNigtRiM2Ji1JJW1zdXBHRiQ2JS1GLDYlUSJhRidGL0YyRmhvLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zfby1GIzYmLUYsNiVRJWNvc2hGJy9GMEY9RjktRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmJvRmRvLUZlbjYkLUYjNiZGaG9GX28tRiw2JVEoJnRoZXRhO0YnRl9xRjlGOUY5RjlGOS1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkhGUkZURmFwLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGUkZULUYjNiZGaG9GX28tRmJwNiUtRiw2JVEickYnRi9GMkZob0ZncEY5RjlGOUZfby1GZm82Iy1GIzYmRmFwRmpxLUZicDYlLUYsNiVRIm1GJ0YvRjJGaG9GZ3BGOUZfb0Zdc0Zfby1GYnA2JS1GZW42JC1GIzYqLUYjNiZGYXBGX28tRmJwNiVGanBGaG9GZ3BGOUZqcS1GIzYmLUZlbjYkLUYjNidGTy1GIzYmRmhvRl9vRmFwRjlGXXItRiM2Ji1GXG82JFEiOEYnRjlGX29GW3NGOUY5RjlGX29GanBGOUZqcUZhcEZdckZidEY5RjlGaG9GZ3BGX28tRmZvNiMtRiM2JUZPLUYjNiZGYXBGX28tRmVuNiQtRiM2JkZqcEZqcS1GXG82JFEiMUYnRjlGOUY5RjlGOUZfby1GIzYmLUYsNiVRJ2FyY3RhbkYnRl9xRjlGYHEtRmVuNiQtRiM2Ji1GVjYoLUYjNiZGaG9GX28tRmVuNiQtRiM2JkZdc0ZdckZkckY5RjlGOS1GZm82Iy1GIzYpRk8tRiM2KEZob0Zfb0ZhcEZfb0ZqcEY5Rl1yRmB0Rl1yLUYjNiZGW29GX29GW3NGOUY5LyUubGluZXRoaWNrbmVzc0dGY3UvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYXcvJSliZXZlbGxlZEdGPS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUY5RmpxLUYjNiZGZXZGX28tRmVuNiQtRiM2KUZPLUYjNi5GZW9GX29GW3BGX29GZ3JGX29GYHNGX29GZ3RGX28tRiM2Ji1GLDYlUSNsbkYnRl9xRjlGYHEtRmVuNiQtRiM2KkZfcEZqcUZhcEZqcS1GIzYoRltvRl9vRl1zRl9vRmRyRjlGXXJGYHJGOUY5RjlGOUZqcS1GIzYwRmVvRl9vLUZlbjYkLUYjNidGT0ZhdUZqcUZqcEY5RjlGX29GW3BGX29GZ3JGX29GZ3RGX28tRmVuNiQtRiM2Li1GIzYmLUZicDYlRmpwLUZcbzYkUSIzRidGOUZncEZfby1GYnA2JUZkcEZbb0ZncEY5RmpxLUYjNiYtRmVuNiQtRiM2J0ZPLUYjNiZGXHpGX29GX3pGOUZdci1GIzYoLUZcbzYkUSMyNEYnRjlGX29GYXBGX29GW3NGOUY5RjlGX29GaHNGOUZqcS1GIzYmLUZlbjYkLUYjNiZGZ3pGanEtRiM2Ji1GXG82JFEjNjRGJ0Y5Rl9vLUZicDYlRl1zRltvRmdwRjlGOUY5Rl9vRmpwRjlGXXJGX3pGanFGaXpGanFGZFtsRjlGOUZfby1GIzYmRmV4RmBxRltwRjlGOUZdci1GIzYoRltvRl9vRl1zRl9vLUZlbjYkLUYjNidGTy1GIzYyRltvRl9vRmd0Rl9vRltzRl9vRmVvRl9vRl11Rl9vRltwRl9vLUZlbjYkLUYjNipGZnNGanEtRiM2KC1GXG82JFEiNkYnRjlGX29GYXBGX29GanBGOUZdci1GIzYmLUZcbzYkUSI3RidGOUZfb0ZhcEY5Rl1yLUYjNiYtRlxvNiRRIzE2RidGOUZfb0Zbc0Y5RjlGOUZfby1GIzYmLUYsNiVRKGFyY3RhbmhGJ0ZfcUY5RmBxLUZlbjYkLUYjNiYtRlY2KEZjdkZnckZdd0Zfd0Zid0Zkd0Zmd0Zpd0Y5RjlGOUY5RmpxLUYjNiYtRmVuNiQtRiM2Ji1GIzYsRmB5Rl9vRltwRl9vRmFwRl9vLUZlbjYkLUYjNiwtRiM2JkZqeUZfb0ZhcEY5RmpxLUYjNiYtRmVuNiQtRiM2J0ZPLUYjNiZGXHpGX29GYXBGOUZqcUZidEY5RjlGX29GaHNGOUZqcS1GIzYmLUZlbjYkLUYjNiZGZ19sRmpxLUYjNiZGZltsRl9vRltzRjlGOUY5Rl9vRmpwRjlGXXJGYXBGanEtRiM2Ji1GXG82JFEjNTZGJ0Y5Rl9vRltzRjlGOUY5Rl9vLUYjNiZGZnVGYHEtRmVuNiQtRiM2Ji1GVjYoLUYjNiZGZHJGX29GZW9GOUZndEZdd0Zfd0Zid0Zkd0Zmd0Zpd0Y5RjlGOUY5Rl1yLUYjNipGaG9GX29GZW9GX28tRmVuNiQtRiM2Ji1GIzYsRl1zRl9vRl11Rl9vRltwRl9vLUZlbjYkLUYjNipGZnNGXXJGaXZGanFGYXBGanFGY11sRjlGOUZfby1GIzYmRmV4RmBxLUZlbjYkLUYjNilGT0ZhcEZdci1GIzYoRmhvRl9vRl1zRl9vRmRyRjlGanFGYnJGOUY5RjlGOUZqcS1GIzYqLUZlbjYkLUYjNigtRiM2Ji1GZW42JC1GIzYmRl1zRmpxLUZWNihGZHJGaG9GXXdGX3dGYndGZHdGOUY5Rl9vRmpwRjlGanFGXXNGXXJGYGNsRjlGOUZfb0ZgeUZfb0ZhcEZfb0Zic0Y5RjlGOUZfb0ZndEY5RjlGOUZfb0ZnckY5RjlGOUY5RjlGOUY5RjlGOUZfb0Zlb0Zfb0ZkcEY5LUYjNjBGW29GX29GZ3RGX29GZXZGX29GZ3JGX29GW3BGX29GXXNGX29GYHNGOUZdd0Zfd0Zid0Zkd0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSlpbnRncmFsMUdGKCwkKjYjIiIiIiIlRjEpLCQqJilJImFHRigiIiNGMSwmLUklY29zaEdGJTYjLCQqJkY4RjFJJnRoZXRhR0YoRjFGMUYxRjFGMUYxISIiI0YxRjhGQCwmKjJGMkYxKUY4RkFGMSwoKiZGNkYxRjpGMUYxKiRGNkYxRjEqJkY4RjEpSSJyR0YoRjhGMUZARjEpLCZGR0YxKiQpSSJtR0YoRjhGMUYxRkFGMUZPRjEpLCoqJkY2RjEpRjpGOEYxRjEqJiwmKiZGOEYxRjZGMUZAKiYiIilGMUZORjFGQEYxRjpGMUYxRkdGMUZXRkBGOEYxRjNGMS1JJ2FyY3RhbkdGJTYjLCQqKEY4RjEsJkZPRjFGSkZARjEpLCgqKEY4RjFGNkYxRjpGMUZARlZGQComRjJGMUZORjFGQEZBRkBGMUYxRkAqJkZpbkYxLCgqLkZERjFGRUYxRktGMUZQRjFGM0YxLUkjbG5HRiU2IywqRkZGMUZHRjEqKEYyRjFGT0YxRkpGMUYxRkhGQEYxRkAqMEZERjEsJkYxRkBGOkYxRjFGRUYxRktGMUYzRjEsLiomKUY6IiIkRjEpRjdGMkYxRjEqJiwmKiZGam9GMUZbcEYxRkAqKCIjQ0YxRjZGMUZORjFGQEYxRlNGMUYxKiYsJkZecEYxKiYiI2tGMSlGT0YyRjFGMUYxRjpGMUYxKiRGW3BGMUZARl9wRjFGY3BGMUYxLUZhbzYjRkVGMUYxKihGMkYxRk9GMSwmKjJGMkYxRjNGMUZORjFGREYxRjlGMUZFRjEsKkZSRjEqKCIiJ0YxRjZGMUY6RjFGMSomIiIoRjFGNkYxRkAqJiIjO0YxRk5GMUZARjEtSShhcmN0YW5oR0YlNiMqJkZobkYxRktGQEYxRkAqJiwmKixGZm9GMUZFRjFGNkYxLCwqJkZpb0YxRjZGMUYxKiYsJiomRmpvRjFGNkYxRkBGV0YxRjFGU0YxRjEqJiwmRl5yRjEqJkZkcEYxRk5GMUYxRjFGOkYxRjFGR0ZAKiYiI2NGMUZORjFGMUYxLUZaNiMqKEZKRjFGREYxRjNGQEYxRjEqKkY4RjFGREYxLCYqLEZPRjFGOUYxRkVGMSwqRlJGMUZbb0ZARkdGMUZhcUYxRjEtRmFvNiMsKEZHRkAqKEY4RjFGT0YxRkpGMUZAKiRGSUYxRjFGMUYxKiosKComLCZGT0YxKiZGQUYxRkpGMUYxRjFGOkYxRjFGT0YxRmRzRkBGMUZmb0YxRjZGMUZRRjFGMUYxRjNGMUZARjFGS0YxRjFGMUZARjFGMUYxRkRGMUY3RjFGaW5GQEZLRkBGRUZARk9GQEZQRkBGQDcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L85" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEqJnVtaW51czA7RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkMtSSZtZnJhY0dGJDYoLUYjNigtSShtZmVuY2VkR0YkNiQtRiM2J0YrLUYjNjItSSNtbkdGJDYkUSI0RidGLy1GLDYtUTEmSW52aXNpYmxlVGltZXM7RidGL0YyRjVGN0Y5RjtGPUY/L0ZCUSYwLjBlbUYnL0ZFRlotSSZtc3FydEdGJDYjLUZTNiRRIjJGJ0YvRlYtRkw2JC1GIzYoLUYjNiYtSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnRmluLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZWLUYjNiYtRmZvNiVRJWNvc2hGJy9Gam9GNEYvLUYsNi1RMCZBcHBseUZ1bmN0aW9uO0YnRi9GMkY1RjdGOUY7Rj1GP0ZZRmVuLUZMNiQtRiM2JkZpbkZWLUZmbzYlUSgmdGhldGE7RidGZnBGL0YvRi9GL0YvLUYsNi1RJyZwbHVzO0YnRi9GMkY1RjdGOUY7Rj1GP0ZBRkRGYm8tRiw2LVEoJm1pbnVzO0YnRi9GMkY1RjdGOUY7Rj1GP0ZBRkQtRiM2JkZpbkZWLUZjbzYlLUZmbzYlUSJyRidGaW9GXHBGaW5GXnBGL0YvRi9GVi1GZ242Iy1GIzYmRmJvRmFxLUZjbzYlLUZmbzYlUSJtRidGaW9GXHBGaW5GXnBGL0ZWRmRyRlYtRmNvNiUtRkw2JC1GIzYqLUYjNiZGYm9GVi1GY282JUZhcEZpbkZecEYvRmFxLUYjNiYtRkw2JC1GIzYnRistRiM2JkZpbkZWRmJvRi9GZHEtRiM2Ji1GUzYkUSI4RidGL0ZWRmJyRi9GL0YvRlZGYXBGL0ZhcUZib0ZkcUZpc0YvRi9GaW5GXnBGVi1GZ242Iy1GIzYlRistRiM2JkZib0ZWLUZMNiQtRiM2JkZhcEZhcS1GUzYkUSIxRidGL0YvRi9GL0YvRlYtRiM2Ji1GZm82JVEnYXJjdGFuRidGZnBGL0ZncC1GTDYkLUYjNiYtRkc2KC1GIzYmRmluRlYtRkw2JC1GIzYmRmRyRmRxRltyRi9GL0YvLUZnbjYjLUYjNilGKy1GIzYoRmluRlZGYm9GVkZhcEYvRmRxRmdzRmRxLUYjNiZGUkZWRmJyRi9GLy8lLmxpbmV0aGlja25lc3NHRmp0LyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmh2LyUpYmV2ZWxsZWRHRjQvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjRGL0YvRi9GL0ZhcS1GIzYmRlx2RlYtRkw2JC1GIzYpRistRiM2LkZmbkZWRlxvRlZGXnJGVkZnckZWRl50RlYtRiM2Ji1GZm82JVEjbG5GJ0ZmcEYvRmdwLUZMNiQtRiM2KkZgb0ZhcUZib0ZhcS1GIzYoRlJGVkZkckZWRltyRi9GZHFGZ3FGL0YvRi9GL0ZhcS1GIzYwRmZuRlYtRkw2JC1GIzYnRitGaHRGYXFGYXBGL0YvRlZGXG9GVkZeckZWRl50RlYtRkw2JC1GIzYuLUYjNiYtRmNvNiVGYXAtRlM2JFEiM0YnRi9GXnBGVi1GY282JUZlb0ZSRl5wRi9GYXEtRiM2Ji1GTDYkLUYjNidGKy1GIzYmRmN5RlZGZnlGL0ZkcS1GIzYoLUZTNiRRIzI0RidGL0ZWRmJvRlZGYnJGL0YvRi9GVkZfc0YvRmFxLUYjNiYtRkw2JC1GIzYmRl56RmFxLUYjNiYtRlM2JFEjNjRGJ0YvRlYtRmNvNiVGZHJGUkZecEYvRi9GL0ZWRmFwRi9GZHFGZnlGYXFGYHpGYXFGW1tsRi9GL0ZWLUYjNiZGXHhGZ3BGXG9GL0YvRmRxLUYjNihGUkZWRmRyRlYtRkw2JC1GIzYnRistRiM2MkZSRlZGXnRGVkZickZWRmZuRlZGZHRGVkZcb0ZWLUZMNiQtRiM2KkZdc0ZhcS1GIzYoLUZTNiRRIjZGJ0YvRlZGYm9GVkZhcEYvRmRxLUYjNiYtRlM2JFEiN0YnRi9GVkZib0YvRmRxLUYjNiYtRlM2JFEjMTZGJ0YvRlZGYnJGL0YvRi9GVi1GIzYmLUZmbzYlUShhcmN0YW5oRidGZnBGL0ZncC1GTDYkLUYjNiYtRkc2KEZqdUZeckZkdkZmdkZpdkZbd0Zdd0Zgd0YvRi9GL0YvRmFxLUYjNiYtRkw2JC1GIzYmLUYjNixGZ3hGVkZcb0ZWRmJvRlYtRkw2JC1GIzYsLUYjNiZGYXlGVkZib0YvRmFxLUYjNiYtRkw2JC1GIzYnRistRiM2JkZjeUZWRmJvRi9GYXFGaXNGL0YvRlZGX3NGL0ZhcS1GIzYmLUZMNiQtRiM2JkZeX2xGYXEtRiM2JkZdW2xGVkZickYvRi9GL0ZWRmFwRi9GZHFGYm9GYXEtRiM2Ji1GUzYkUSM1NkYnRi9GVkZickYvRi9GL0ZWLUYjNiZGXXVGZ3AtRkw2JC1GIzYmLUZHNigtRiM2JkZbckZWRmZuRi9GXnRGZHZGZnZGaXZGW3dGXXdGYHdGL0YvRi9GL0ZkcS1GIzYqRmluRlZGZm5GVi1GTDYkLUYjNiYtRiM2LEZkckZWRmR0RlZGXG9GVi1GTDYkLUYjNipGXXNGZHFGYHZGYXFGYm9GYXFGalxsRi9GL0ZWLUYjNiZGXHhGZ3AtRkw2JC1GIzYpRitGYm9GZHEtRiM2KEZpbkZWRmRyRlZGW3JGL0ZhcUZpcUYvRi9GL0YvRmFxLUYjNiotRkw2JC1GIzYoLUYjNiYtRkw2JC1GIzYmRmRyRmFxLUZHNihGW3JGaW5GZHZGZnZGaXZGW3dGL0YvRlZGYXBGL0ZhcUZkckZkcUZnYmxGL0YvRlZGZ3hGVkZib0ZWRmlyRi9GL0YvRlZGXnRGL0YvRi9GVkZeckYvRi9GL0YvRi9GL0YvRi9GL0ZWRmZuRlZGZW9GLy1GIzYwRlJGVkZedEZWRlx2RlZGXnJGVkZcb0ZWRmRyRlZGZ3JGL0ZkdkZmdkZpdkZbd0Yv">LCQqNiMiIiIiIiVGJSksJComKUkiYUc2IiIiI0YlLCYtSSVjb3NoRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YsNiMsJComRi1GJUkmdGhldGFHRixGJUYlRiVGJUYlRiUhIiIjRiVGLUY4LCYqMkYmRiUpRi1GOUYlLCgqJkYqRiVGL0YlRiUqJEYqRiVGJSomRi1GJSlJInJHRixGLUYlRjhGJSksJkY/RiUqJClJIm1HRixGLUYlRiVGOUYlRkdGJSksKiomRipGJSlGL0YtRiVGJSomLCYqJkYtRiVGKkYlRjgqJiIiKUYlRkZGJUY4RiVGL0YlRiVGP0YlRk9GOEYtRiVGJ0YlLUknYXJjdGFuR0YxNiMsJCooRi1GJSwmRkdGJUZCRjhGJSksKCooRi1GJUYqRiVGL0YlRjhGTkY4KiZGJkYlRkZGJUY4RjlGOEYlRiVGOComRldGJSwoKi5GPEYlRj1GJUZDRiVGSEYlRidGJS1JI2xuR0YxNiMsKkY+RiVGP0YlKihGJkYlRkdGJUZCRiVGJUZARjhGJUY4KjBGPEYlLCZGJUY4Ri9GJUYlRj1GJUZDRiVGJ0YlLC4qJilGLyIiJEYlKUYrRiZGJUYlKiYsJiomRmJvRiVGY29GJUY4KigiI0NGJUYqRiVGRkYlRjhGJUZLRiVGJSomLCZGZm9GJSomIiNrRiUpRkdGJkYlRiVGJUYvRiVGJSokRmNvRiVGOEZnb0YlRltwRiVGJS1GaW42I0Y9RiVGJSooRiZGJUZHRiUsJioyRiZGJUYnRiVGRkYlRjxGJUYuRiVGPUYlLCpGSkYlKigiIidGJUYqRiVGL0YlRiUqJiIiKEYlRipGJUY4KiYiIztGJUZGRiVGOEYlLUkoYXJjdGFuaEdGMTYjKiZGVkYlRkNGOEYlRjgqJiwmKixGXm9GJUY9RiVGKkYlLCwqJkZhb0YlRipGJUYlKiYsJiomRmJvRiVGKkYlRjhGT0YlRiVGS0YlRiUqJiwmRmZxRiUqJkZccEYlRkZGJUYlRiVGL0YlRiVGP0Y4KiYiI2NGJUZGRiVGJUYlLUZSNiMqKEZCRiVGPEYlRidGOEYlRiUqKkYtRiVGPEYlLCYqLEZHRiVGLkYlRj1GJSwqRkpGJUZZRjhGP0YlRmlwRiVGJS1GaW42IywoRj9GOCooRi1GJUZHRiVGQkYlRjgqJEZBRiVGJUYlRiUqKiwoKiYsJkZHRiUqJkY5RiVGQkYlRiVGJUYvRiVGJUZHRiVGXHNGOEYlRl5vRiVGKkYlRklGJUYlRiVGJ0YlRjhGJUZDRiVGJUYlRjhGJUYlRiVGPEYlRitGJUZXRjhGQ0Y4Rj1GOEZHRjhGSEY4Rjg=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L83" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := 8*a^3*m*r*(-1+cosh(2*theta))*(2*r^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L90" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L91" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L186" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L189" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEmJlBoaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GIzYmLUYsNiVRImZGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGWS1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYsNiVRInJGJ0ZRRlMvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMkYyRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjJGOUY7Rj1GP0ZBRkNGRUZYRlotRiM2Ji1GLDYlUSVzaW5oRidGL0YyRlUtRmZuNiQtRiM2Ji1GLDYlUSgmdGhldGE7RidGL0YyRl1vRmBvRjJGMkYyRjI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRQaGlHRigqJi1JImZHRig2I0kickdGKCIiIi1JJXNpbmhHRiU2I0kmdGhldGFHRihGMzcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L198" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L192" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEnRWN1YWMxRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GIzYmLUkobWZlbmNlZEdGJDYkLUYjNigtSSZtZnJhY0dGJDYoLUklbXN1cEdGJDYlLUY2Ni1RMCZEaWZmZXJlbnRpYWxEO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZqbi1JI21uR0YkNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GIzYlRmZuLUZaNiUtRiw2JVEickYnRi9GMkZcb0Zgb0Y5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZfcC8lKWJldmVsbGVkR0Y9LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRmlwLyUqbGluZWJyZWFrR1ElYXV0b0YnLUYsNiVRImZGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRmluRltvLUZSNiQtRiM2JkZnby8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGaW5GW28tRiM2Ji1GLDYlUSVzaW5oRicvRjBGPUY5RmVxLUZSNiQtRiM2Ji1GLDYlUSgmdGhldGE7RidGaXJGOUZcckZfckY5RjlGOUY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZlcy1GVzYoLUYjNiYtRlo2JS1GUjYkLUYjNigtRlc2KEZmbi1GIzYlRmZuRmdvRjlGam9GXXBGYHBGYnBGZHBGYnFGZXFGaHFGOUY5RlxvRmBvRmFyRmRyRjktRiM2JkZicUZlcUZocUY5RmpvRl1wRmBwRmJwRmFzLUZXNihGZHJGZXRGam9GXXBGYHBGYnBGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdFY3VhYzFHRigsKComLUklZGlmZkdGJjYkLUkiZkdGKDYjSSJyR0YoLUkiJEdGJjYkRjYiIiMiIiItSSVzaW5oR0YlNiNJJnRoZXRhR0YoRjtGOyooKS1GMTYkRjNGNkY6RjtGPEY7RjMhIiJGOyomRjNGREY8RjtGOzcjLCgqJi1GMTYkRkJGNkY7RjxGO0Y7RkBGO0ZFRjs=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkmbWZyYWNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2KC1JJW1yb3dHRiQ2Ji1GLDYmLUkjbWlHRiQ2JVElc2luaEYnLyUnaXRhbGljR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTi1JKG1mZW5jZWRHRiQ2JC1GLDYmLUYxNiVRKCZ0aGV0YTtGJ0Y0RjcvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjZGN0Y3RjctRjs2LVExJkludmlzaWJsZVRpbWVzO0YnRjdGPkZARkJGREZGRkhGSkZMRk8tRlI2JC1GLDYoLUYsNiYtRlI2JC1GLDYoLUYjNigtSSVtc3VwR0YkNiUtRjs2LVEwJkRpZmZlcmVudGlhbEQ7RidGN0Y+RkBGQkZERkZGSEZKRkxGTy1JI21uR0YkNiRRIjJGJ0Y3LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GLDYlRmpvLUZobzYlLUYxNiVRInJGJy9GNVEldHJ1ZUYnL0Y4USdpdGFsaWNGJ0ZdcEZhcEY3LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZkcS8lKWJldmVsbGVkR0Y2LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRl5yLyUqbGluZWJyZWFrR1ElYXV0b0YnLUYxNiVRImZGJ0ZbcUZdcUY6LUZSNiQtRiw2JkZocEZZRmZuRjdGN0Y3RjdGaG4tRiw2JkZnckY6RmpyRjdGNy1GOzYtUScmcGx1cztGJ0Y3Rj5GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGZHMtRmhvNiUtRlI2JC1GLDYoLUYjNihGam8tRiw2JUZqb0ZocEY3Rl9xRmJxRmVxRmdxRmlxRmdyRjpGanJGN0Y3Rl1wRmFwRmBzLUZecDYkRmFxRjdGN0Y3RjdGXnNGX3FGYnFGZXFGZ3E=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMqKC1JJXNpbmhHRiU2I0kmdGhldGFHRigiIiIsKComLUklZGlmZkdGJjYkLUkiZkdGKDYjSSJyR0YoLUkiJEdGJjYkRjoiIiNGMUY3RjFGMSokKS1GNTYkRjdGOkY+RjFGMUYxRjFGMUY3ISIiNyMqKEYtRjEsKComLUY1NiRGQUY6RjFGN0YxRjFGP0YxRjFGMUYxRjdGQw==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L195" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtRiM2Ji1JI21pR0YkNiVRImZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTAmQXBwbHlGdW5jdGlvbjtGJy9GN1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkEvJSlzdHJldGNoeUdGQS8lKnN5bW1ldHJpY0dGQS8lKGxhcmdlb3BHRkEvJS5tb3ZhYmxlbGltaXRzR0ZBLyUnYWNjZW50R0ZBLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUC1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYwNiVRInJGJ0YzRjYvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkFGPUY9Rj0tRjo2LVEpJmVxdWFscztGJ0Y9Rj9GQkZERkZGSEZKRkwvRk9RLDAuMjc3Nzc3OGVtRicvRlJGXm8tSSZtc3FydEdGJDYjLUYjNiktRjo2LVEqJnVtaW51czA7RidGPUY/RkJGREZGRkhGSkZML0ZPUSwwLjIyMjIyMjJlbUYnL0ZSRmlvLUYjNigtSSNtbkdGJDYkUSIyRidGPS1GOjYtUTEmSW52aXNpYmxlVGltZXM7RidGPUY/RkJGREZGRkhGSkZMRk5GUS1GMDYlUSRfQzFGJ0YzRjZGYXBGWEY9LUY6Ni1RKCZtaW51cztGJ0Y9Rj9GQkZERkZGSEZKRkxGaG9Gam8tSSVtc3VwR0YkNiVGWEZdcC8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRjo2LVEnJnBsdXM7RidGPUY/RkJGREZGRkhGSkZMRmhvRmpvLUYjNiZGXXBGYXAtRjA2JVEkX0MyRidGM0Y2Rj1GPUY9LUY6Ni1RKCZjb21tYTtGJ0Y9Rj8vRkNGNUZERkZGSEZKRkxGTi9GUlEsMC4zMzMzMzMzZW1GJy1GIzYmRi1Gam4tRiM2JUZlb0Zgb0Y9Rj1GPQ==">NiQvLUkiZkc2IjYjSSJyR0YmKiQpLCgqKCIiIyIiIkkkX0MxR0YmRi5GKEYuISIiKiQpRihGLUYuRjAqJkYtRi5JJF9DMkdGJkYuRi4jRi5GLUYuL0YkLCRGKUYw</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L201" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnRWN1YWMyRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtRiM2KC1GUDYoLUY2Ni1RMCZEaWZmZXJlbnRpYWxEO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZaLUYjNiVGVi1GLDYlUSJyRidGL0YyRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmBvLyUpYmV2ZWxsZWRHRj0tSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNGVtRicvJSZkZXB0aEdGam8vJSpsaW5lYnJlYWtHUSVhdXRvRictRiw2JVEiQUYnRi9GMi1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0Y5RjtGPkZARkJGREZGRkhGWUZlbi1JKG1mZW5jZWRHRiQ2JC1GIzYmRmhuLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUY5LUYjNiZGY3BGZnBGaXBGOUZbb0Zeb0Zhb0Zjby1GNjYtUSkmZXF1YWxzO0YnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRlA2KC1GLDYlUSgmYWxwaGE7RicvRjBGPUY5LUYjNiYtRiM2KC1JI21uR0YkNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGWUZlbi1GLDYlUSJtRidGL0YyRmZyRmhuRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZgcy1JJW1zdXBHRiQ2JUZobkZici8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOUZbb0Zeb0Zhb0Zjb0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdFY3VhYzJHRigvKiYtSSVkaWZmR0YmNiQtSSJBR0YoNiNJInJHRihGNiIiIkYzISIiKiZJJmFscGhhR0YoRjcsJiooIiIjRjdJIm1HRihGN0Y2RjdGNyokKUY2Rj1GN0Y4Rjg3I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L205" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtaUdGJDYlUSJBRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2Ji1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y/RjtGO0Y7LUY4Ni1RKSZlcXVhbHM7RidGO0Y9RkBGQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRlxvLUYjNigtRi42JVEkX0MxRidGMUY0LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUklbXN1cEdGJDYlLUZSNiQtRiM2Jy1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGYXAtRiM2Ji1JI21uR0YkNiRRIjJGJ0Y7RmNvLUYuNiVRIm1GJ0YxRjRGOy1GODYtUScmcGx1cztGJ0Y7Rj1GQEZCRkRGRkZIRkpGYHBGYnBGVkY7RjstRiM2JUZdcC1JJm1mcmFjR0YkNigtRi42JVEoJmFscGhhO0YnL0YyRj9GO0ZjcC8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXXIvJSliZXZlbGxlZEdGP0Y7LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zjby1GZ282JUZWRmFxRmJyRjtGOw==">Ly1JIkFHNiI2I0kickdGJSooSSRfQzFHRiUiIiIpLCYqJiIiI0YqSSJtR0YlRiohIiJGJ0YqLCQqKCNGKkYuRipJJmFscGhhR0YlRipGL0YwRjBGKilGJywkRjJGKkYq</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L208" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEjQUFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYsNiVRJF9DMUYnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlYtSSVtc3VwR0YkNiUtSShtZmVuY2VkR0YkNiQtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXm8tRiM2Ji1JI21uR0YkNiRRIjJGJ0Y5RlItRiw2JVEibUYnRi9GMkY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZdb0Zfby1GLDYlUSJyRidGL0YyRjlGOS1GIzYlRmpuLUkmbWZyYWNHRiQ2KC1GLDYlUSgmYWxwaGE7RicvRjBGPUY5RmBvLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZdcS8lKWJldmVsbGVkR0Y9RjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRlItRlk2JUZccEZhcEZicUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNBQUdGKCooSSRfQzFHRigiIiIpLCYqJiIiI0YwSSJtR0YoRjAhIiJJInJHRihGMCwkKigjRjBGNEYwSSZhbHBoYUdGKEYwRjVGNkY2RjApRjcsJEY5RjBGMDcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L216" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L213" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L210" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L218" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L202" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L220" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L217" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L219" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L222" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L221" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L209" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L225" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L226" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L227" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L228" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L229" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L230" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L231" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L215" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L233" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L232" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L235" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L237" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La verdadera axial</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L236" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L234" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L241" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L239" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L238" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L240" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L242" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L244" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L243" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L246" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L248" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L245" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L247" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX := X(r,theta); XXtilde := Xtilde(r,theta); OmegaX := Omega(r,theta); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L137" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX := X(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L135" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -a*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L250" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L249" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L251" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac28,X(r,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L140" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX1 := a*ln(-r^2+2*m*r+a^2*cosh(theta)^2)/(2*m)-a*ln(a^2*cosh(theta)^2-r^2)/(2*m)+_F1(r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L138" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L144" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX1,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L142" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L147" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := 8*a^3*m*r*(-1+cosh(2*theta))*(a^2*cosh(2*theta)+a^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L146" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L151" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L149" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := 8*a^3*m*r*(-1+cosh(2*theta))*(2*r^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L153" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L155" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L154" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(</Text-field>
+</Input>
+</Group>
+<Group labelreference="L148" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L193" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L203" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L187" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L184" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L196" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L163" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L168" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L162" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L172" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L178" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L174" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L214" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L176" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L170" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L179" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L180" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L181" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L166" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L185" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L194" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L190" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L199" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L197" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L206" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L204" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L223" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L136" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L211" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L133" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L143" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La verdadera axial</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L145" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L134" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L150" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L139" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L141" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L152" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L191" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L200" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L207" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L171" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L177" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L212" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L156" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := Xtilde(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L259" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XXtilde := Xtilde(r,theta); f := sqrt(2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L258" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -m*2*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a*m*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2); Phi := f*sinh(theta);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L265" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">las condiciones de integrabilidad sobre Xtilde (ecuaci\303\263n 29) se cumplen para esa Xtilde</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L263" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2728 := diff(XXtilde,r,r) +(diff(XXtilde,theta,theta) -coth(theta)*diff(XXtilde,theta))/f^2 = psi*(diff(OmegaX,r,r) +(diff(OmegaX,theta,theta) -coth(theta)*diff(OmegaX,theta))/f^2); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L266" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Los elementos m\303\251tricos</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L267" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := sqrt(diff(OmegaX,theta)*sinh(theta)/diff(psi,r));simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L268" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">omega3 := simplify(AA2*psi);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L269" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR2 := simplify(Phi^2/AA2) -simplify(omega3^2/AA2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L270" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numRR2 := simplify(numer(RR2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L271" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">denRR2 := simplify(denom(RR2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L272" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta := -r^2+2*m*r+a^2*cosh(theta)^2; expand(Delta^2); expand(Delta^3);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L256" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XXtilde := Xtilde(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L157" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XXtilde := m*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L255" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX    := ((r^2 +(a*cosh(theta))^2 -2*m*r)/(r^2 +(a*cosh(theta))^2)); OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*m*a*sinh(theta)^2/(r^2 -2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L182" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L175" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L257" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Ecuac2728 := diff(XXtilde,r,r) +(diff(XXtilde,theta,theta) -coth(theta)*diff(XXtilde,theta))/f^2 = psi*(diff(OmegaX,r,r) +(diff(OmegaX,theta,theta) -coth(theta)*diff(OmegaX,theta))/f^2); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L262" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(8*r*a^3*(a^2*cosh(theta)^2+3*r^2)*cosh(theta)*m*sinh(theta)^2/((cosh(theta)*a-r)^3*(cosh(theta)*a+r)^3));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L224" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve((diff(Xtilde(r, theta), theta, theta)-coth(theta)*(diff(Xtilde(r, theta), theta)))/(a^2+2*m*r-r^2)=0,Xtilde(r,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L158" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde1 := rhs(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L260" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(XXtilde1, r, r)  = -8*r*a^3*(a^2*cosh(theta)^2+3*r^2)*cosh(theta)*m*sinh(theta)^2/((cosh(theta)*a-r)^3*(cosh(theta)*a+r)^3*(a^2+2*m*r-r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L261" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">otraecuac := cosh(theta)*(diff(_F2(r), r, r)) = -8*r*a^3*(a^2*cosh(theta)^2+3*r^2)*cosh(theta)*m*sinh(theta)^2/((cosh(theta)*a-r)^3*(cosh(theta)*a+r)^3*(a^2+2*m*r-r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L159" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(otraecuac,_F2(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L160" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde1,theta);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L161" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L252" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((a^2*cosh(2*theta)-2*m*r*cosh(2*theta)+a^2+2*m*r-2*r^2)*a^2*cosh(2*theta)+a^2+2*r^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L165" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := (a^4-2*a^2*m*r)*cosh(2*theta)^2/((a^2-2*m*r+r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L167" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L173" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L169" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := a^2*(a^2+2*r*(m-r))*cosh(2*theta)/((a^2-2*m*r+r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L183" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L253" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ3 := (a^2+2*r^2)/((a^2-2*m*r+r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L254" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral3:= simplify(int(integ3,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L188" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2 + intgral3);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L330" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L273" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L331" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="18" bold="true" encoding="UTF-8">La ecuaci\303\263n (22V3)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L332" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L333" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi0 := psi(r,theta); psi0 := 2*r*m*a*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L334" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff1 := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L336" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Omega0:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); #psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L335" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac22 := diff(psi0,r)*diff(Omega0,r) +(1/ff1^2)*diff(psi0,theta)*diff(Omega0,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L337" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%); # yuppi</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L338" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(sqrt( diff(Omega0,theta)*sinh(theta)/diff(psi0,r) )); AA2b := (-r^2+2*r*m+a^2*cosh(theta)^2)/(a^2*cosh(theta)^2-r^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L274" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="20" bold="true" encoding="UTF-8">La ecuaci\303\263n A,r A,theta</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L275" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L277" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi0 := psi(r,theta);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L281" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#psi := 2*r*a*m*sinh(theta)^2/(-r^2+2*m*r+a^2*cosh(theta)^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L279" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA:= sqrt(1 -2*m*r/(r^2 -(a*cosh(theta))^2)); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L294" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff1 := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L295" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#ff2 := sqrt(-2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L296" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#ff3 := sqrt(-2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L297" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#ff4 := sqrt(-2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L298" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos + + en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L276" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff1*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L278" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L290" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n ser\303\241</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L280" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac1 := numer(Ecuac1); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L282" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L291" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El t\303\251rmino del centro, entre par\303\251ntesis se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L283" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac11 := (diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))+8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r-r^2) = 0;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L288" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L284" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho11 := simplify(8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r-r^2)/((a^2*cosh(theta)^2+2*m*r-r^2)^4));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L289" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Ahora hago las cuentas con el psi de Kerr acomodado con los t\303\251rminos hiperb\303\263licos correg\303\255 un signo en la psi, pero que me de </Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L286" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi00 := 2*r*a*m*sinh(theta)^2/(-r^2 +2*m*r +a^2*cosh(theta)^2); diff(psi00,theta); diff(psi00,r); ladoIzqEc := simplify(diff(psi00,r)*diff(psi00,theta))</Text-field>
+</Input>
+</Group>
+<Group labelreference="L299" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos - - en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L287" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff2 := sqrt(-2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L300" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff2*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L301" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L302" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L303" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac2 := simplify(numer(Ecuac2)) = 0; </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L304" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))-8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r+r^2));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L307" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L306" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho2 := simplify(8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r+r^2)/(a^2*cosh(theta)^2-2*m*r-r^2)^4);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L305" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoIzqEc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L310" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos - + en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L311" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff3 := sqrt(-2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L309" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac3 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff3*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L315" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L314" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L313" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac3 := simplify(numer(Ecuac3)) = 0; </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L312" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))+8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r-r^2));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L316" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L317" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho3 := simplify(-8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r-r^2)/(a^2*cosh(theta)^2+2*m*r-r^2)^4);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L318" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoIzqEc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L322" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos + - en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L321" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff4 := sqrt(2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L320" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac4 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff4*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L323" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L324" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L325" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac4 := simplify(numer(Ecuac4)) = 0; </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L326" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))-8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r+r^2));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L329" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L328" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho3 := simplify(8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r+r^2)/(a^2*cosh(theta)^2+2*m*r-r^2)^4);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L327" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoIzqEc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L339" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="20" bold="true">Para Kerr</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L341" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L340" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi0 := psi(r,theta); psi0 := 2*r*a*m*sinh(theta)^2/(-r^2 +2*m*r +a^2*cosh(theta)^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L343" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA:= sqrt(-1 +2*m*r/(r^2 -(a*cosh(theta))^2)); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L342" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff1 := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L346" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(diff(AA,r)); simplify(diff(AA,theta)); simplify(diff(psi0,r));simplify(diff(psi0,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L345" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff1*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L344" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L308" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
