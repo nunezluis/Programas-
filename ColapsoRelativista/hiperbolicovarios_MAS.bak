@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2018" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEmJlBoaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GIzYmLUYsNiVRImZGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1GNjYtUTAmQXBwbHlGdW5jdGlvbjtGJ0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGWS1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYsNiVRInJGJ0ZRRlMvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjFGMkYyRjItRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjJGOUY7Rj1GP0ZBRkNGRUZYRlotRiM2Ji1GLDYlUSVzaW5oRidGL0YyRlUtRmZuNiQtRiM2Ji1GLDYlUSgmdGhldGE7RidGL0YyRl1vRmBvRjJGMkYyRjI=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRQaGlHRigqJi1JImZHRig2I0kickdGKCIiIi1JJXNpbmhHRiU2I0kmdGhldGFHRihGMzcjRi4=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L347" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := sqrt(-2*C1*r +r^2 +2*C2)*sinh(theta);f(r) := sqrt(-2*C1*r +r^2 +2*C2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2 =0; simplify(%);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnRWN1YWMxRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GIzYoLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2KC1JJm1mcmFjR0YkNigtSSVtc3VwR0YkNiUtRjY2LVEwJkRpZmZlcmVudGlhbEQ7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORlxvLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUYjNiVGaG4tRmZuNiUtRiw2JVEickYnRi9GMkZeb0Zib0Y5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZhcC8lKWJldmVsbGVkR0Y9LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRltxLyUqbGluZWJyZWFrR1ElYXV0b0YnLUYsNiVRImZGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIRltvRl1vLUZUNiQtRiM2JkZpby8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGW29GXW8tRiM2Ji1GLDYlUSVzaW5oRicvRjBGPUY5RmdxLUZUNiQtRiM2Ji1GLDYlUSgmdGhldGE7RidGW3NGOUZeckZhckY5RjlGOUY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZncy1GWTYoLUYjNiYtRmZuNiUtRlQ2JC1GIzYoLUZZNihGaG4tRiM2JUZobkZpb0Y5RlxwRl9wRmJwRmRwRmZwRmRxRmdxRmpxRjlGOUZeb0Zib0ZjckZmckY5LUYjNiZGZHFGZ3FGanFGOUZccEZfcEZicEZkcEZjcy1GWTYoRmZyRmd0RlxwRl9wRmJwRmRwRjktRjY2LVEpJmVxdWFscztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUZfbzYkRmRvRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdFY3VhYzFHRigvLCgqJi1JJWRpZmZHRiY2JC1JImZHRig2I0kickdGKC1JIiRHRiY2JEY3IiIjIiIiLUklc2luaEdGJTYjSSZ0aGV0YUdGKEY8RjwqKC1GMjYkRjRGN0Y7Rj1GPEY0ISIiRjwqJkY0RkRGPUY8RjwiIiE3Iy8sKComLUYyNiRGQkY3RjxGPUY8RjxGQUY8RkVGPEZG</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1GIzYmLUYjNiYtSSNtaUdGJDYlUSVzaW5oRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMCZBcHBseUZ1bmN0aW9uO0YnRjkvJSZmZW5jZUdGOC8lKnNlcGFyYXRvckdGOC8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZQLUkobWZlbmNlZEdGJDYkLUYjNiYtRjM2JVEoJnRoZXRhO0YnRjZGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGOEY5RjlGOS1GPTYtUTEmSW52aXNpYmxlVGltZXM7RidGOUZARkJGREZGRkhGSkZMRk5GUS1GVDYkLUYjNigtRiM2Ji1GVDYkLUYjNigtRiw2KC1JJW1zdXBHRiQ2JS1GPTYtUTAmRGlmZmVyZW50aWFsRDtGJ0Y5RkBGQkZERkZGSEZKRkxGTkZRLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUYjNiVGXHAtRmpvNiUtRjM2JVEickYnL0Y3USV0cnVlRicvRjpRJ2l0YWxpY0YnRl9wRmNwRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmZxLyUpYmV2ZWxsZWRHRjgtSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdRJjAuNGVtRicvJSZkZXB0aEdGYHIvJSpsaW5lYnJlYWtHUSVhdXRvRictRjM2JVEiZkYnRl1xRl9xRjwtRlQ2JC1GIzYmRmpwRmVuRmhuRjlGOUY5RjlGam4tRiM2JkZpckY8RlxzRjlGOS1GPTYtUScmcGx1cztGJ0Y5RkBGQkZERkZGSEZKRkwvRk9RLDAuMjIyMjIyMmVtRicvRlJGZnMtRmpvNiUtRlQ2JC1GIzYoLUYsNihGXHAtRiM2JUZccEZqcEY5RmFxRmRxRmdxRmlxRltyRmlyRjxGXHNGOUY5Rl9wRmNwRmJzLUZgcDYkRmNxRjlGOUY5RjlGYHNGYXFGZHFGZ3FGaXEtRj02LVEpJmVxdWFscztGJ0Y5RkBGQkZERkZGSEZKRkwvRk9RLDAuMjc3Nzc3OGVtRicvRlJGaHQtRmBwNiRGZXBGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvKigtSSVzaW5oR0YlNiNJJnRoZXRhR0YoIiIiLCgqJi1JJWRpZmZHRiY2JC1JImZHRig2I0kickdGKC1JIiRHRiY2JEY7IiIjRjJGOEYyRjIqJC1GNjYkRjhGO0Y/RjJGMkYyRjJGOCEiIiIiITcjLyooRi5GMiwoKiYtRjY2JEZBRjtGMkY4RjJGMkZARjJGMkYyRjJGOEZDRkQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L349" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(2*M*r -r^2);A(r) := (2*M/r -1);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RMCZBcHBseUZ1bmN0aW9uO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEickYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjktRjY2LVEpJkFzc2lnbjtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjc3Nzc3OGVtRicvRk5Gam4tSSZtc3FydEdGJDYjLUYjNiYtRiM2KC1JI21uR0YkNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYsNiVRIk1GJ0YvRjJGZ29GVEY5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GYXAtSSVtc3VwR0YkNiVGVEZjby8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+LUkiZkdGKDYjSSJyR0YoKiQsJiomSSJNR0YoIiIiRjBGNSIiIyokRjBGNiEiIiNGNUY2NyNGMQ==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEiQUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RMCZBcHBseUZ1bmN0aW9uO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEickYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjktRjY2LVEpJkFzc2lnbjtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjc3Nzc3OGVtRicvRk5Gam4tSSZtZnJhY0dGJDYoLUYjNiYtSSNtbkdGJDYkUSIyRidGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GLDYlUSJNRidGL0YyRjlGVC8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYHAvJSliZXZlbGxlZEdGPS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmlwLUZibzYkRl1wRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+LUkiQUdGKDYjSSJyR0YoLCYqJkkiTUdGKCIiIkYwISIiIiIjRjVGNDcjRjE=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L350" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac1);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JFEiMEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RKSZlcXVhbHM7RidGLy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGOC8lKXN0cmV0Y2h5R0Y4LyUqc3ltbWV0cmljR0Y4LyUobGFyZ2VvcEdGOC8lLm1vdmFibGVsaW1pdHNHRjgvJSdhY2NlbnRHRjgvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZHRitGLw==">LyIiIUYj</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L351" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#dsolve(Ecuac1,PhiT(theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L348" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#sqrt(-2*C1*r +r^2 +2*C2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := simplify(diff( (diff(A(r), r)/(A(r))*Phi*f(r) ),r)) = 0;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnRWN1YWMyRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5LUY2Ni1RKSZlcXVhbHM7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTUZPRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdFY3VhYzJHRigvIiIhRi83I0Yu</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtaUdGJDYlUSJBRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2Ji1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y/RjtGO0Y7LUY4Ni1RKSZlcXVhbHM7RidGO0Y9RkBGQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRlxvLUYjNigtRi42JVEkX0MyRidGMUY0LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUklbXN1cEdGJDYlRlYtSSZtZnJhY0dGJDYoLUYuNiVRJF9DMUYnRjFGNC1GIzYmLUkjbW5HRiQ2JFEiMkYnRjtGY28tRi42JVEiTUYnRjFGNEY7LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZdcS8lKWJldmVsbGVkR0Y/LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zjby1GZ282JS1GUjYkLUYjNiZGX3AtRjg2LVEoJm1pbnVzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yMjIyMjIyZW1GJy9GUEZfckZWRjtGOy1GIzYlLUY4Ni1RKiZ1bWludXMwO0YnRjtGPUZARkJGREZGRkhGSkZeckZgckZpb0Y7RmJxRjtGOw==">Ly1JIkFHNiI2I0kickdGJSooSSRfQzJHRiUiIiIpRicsJComSSRfQzFHRiVGKkkiTUdGJSEiIiNGKiIiI0YqKSwmRi9GMkYnRjAsJEYtI0YwRjJGKg==</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L8" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L25" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L27" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L34" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L33" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L35" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L38" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L37" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L39" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L40" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L41" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L42" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L44" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La prueba</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L43" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L48" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L46" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L47" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L49" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L50" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L51" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L52" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L53" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L55" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L54" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L56" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX := X(r,theta); XXtilde := Xtilde(r,theta); OmegaX := Omega(r,theta); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L60" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX := X(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L61" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -a*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L57" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L58" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L59" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac28,X(r,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L62" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX1 := a*ln(-r^2+2*m*r+a^2*cosh(theta)^2)/(2*m)-a*ln(a^2*cosh(theta)^2-r^2)/(2*m)+_F1(r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L63" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L64" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX1,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L65" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L66" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := 8*a^3*m*r*(-1+cosh(2*theta))*(a^2*cosh(2*theta)+a^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L67" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L68" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L69" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := 8*a^3*m*r*(-1+cosh(2*theta))*(2*r^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L70" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L71" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L72" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(</Text-field>
+</Input>
+</Group>
+<Group labelreference="L109" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L110" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L115" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L112" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L113" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L117" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L120" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L122" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L79" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L128" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L125" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L84" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L118" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L87" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L82" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L86" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L89" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L88" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L123" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L92" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L93" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L94" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L95" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L96" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L97" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L98" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L131" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L100" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L99" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L102" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L104" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La verdadera axial</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L103" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L101" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L108" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L106" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L105" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L107" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L111" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L116" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L114" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L121" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L126" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L119" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L124" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX := X(r,theta); XXtilde := Xtilde(r,theta); OmegaX := Omega(r,theta); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L74" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX := X(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L73" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -a*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L129" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L127" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L130" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac28,X(r,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L76" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX1 := a*ln(-r^2+2*m*r+a^2*cosh(theta)^2)/(2*m)-a*ln(a^2*cosh(theta)^2-r^2)/(2*m)+_F1(r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L75" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L78" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX1,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L77" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L81" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := 8*a^3*m*r*(-1+cosh(2*theta))*(a^2*cosh(2*theta)+a^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L80" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L85" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L83" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := 8*a^3*m*r*(-1+cosh(2*theta))*(2*r^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L90" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L91" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L186" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L189" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L198" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L192" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L195" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L201" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L205" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L208" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L216" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L213" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L210" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L218" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L202" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L220" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L217" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L219" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L222" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L221" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L209" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L225" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L226" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L227" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L228" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L229" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L230" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L231" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L215" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L233" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L232" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L235" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L237" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La verdadera axial</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L236" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L234" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L241" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L239" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L238" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L240" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L242" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L244" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L243" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L246" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L248" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L245" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L247" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX := X(r,theta); XXtilde := Xtilde(r,theta); OmegaX := Omega(r,theta); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L137" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX := X(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L135" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -a*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L250" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L249" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L251" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac28,X(r,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L140" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XX1 := a*ln(-r^2+2*m*r+a^2*cosh(theta)^2)/(2*m)-a*ln(a^2*cosh(theta)^2-r^2)/(2*m)+_F1(r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L138" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L144" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX1,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L142" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L147" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := 8*a^3*m*r*(-1+cosh(2*theta))*(a^2*cosh(2*theta)+a^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L146" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L151" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L149" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := 8*a^3*m*r*(-1+cosh(2*theta))*(2*r^2)/((a^2+2*m*r-r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L153" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L155" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L154" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(</Text-field>
+</Input>
+</Group>
+<Group labelreference="L148" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L193" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sinh(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L203" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L187" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L184" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac1,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L196" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L163" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L168" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L162" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Defino la A seg\303\272n Quevedo</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L172" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Aq := h^((1+q)/2); A2q := simplify(Aq^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L178" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(AA^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L174" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Construyo la definici\303\263n de Y para utilizar C de la forma de la q-metrica</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L214" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY := Aq*CC1/sqrt(Phi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L176" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Defino la C como en la q metrica</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L170" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CC1 := r*h^(-q/2)*(1 +m^2*sinh(theta)^2/(r^2*h))^(-q*(2+q)/2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L179" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Entonces </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L180" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(YY);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L181" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pongo todo en t\303\251rminos de sinh(theta)</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L166" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1 := sqrt(h)*r*(((1+sinh(theta)^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*sinh(theta));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L185" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">defino sinh(theta) = -eta(r,theta)*f(r)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L194" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY11 := simplify(sqrt(h)*r*(((1+(-eta(r,theta))^2*(f(r))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt(f(r)*(-eta(r,theta)*f(r))));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L190" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">de las cuentas de arriba uso <Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNiotSSNtaUdGJDYlUSJmRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEwJkFwcGx5RnVuY3Rpb247RicvRjVRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y/LyUpc3RyZXRjaHlHRj8vJSpzeW1tZXRyaWNHRj8vJShsYXJnZW9wR0Y/LyUubW92YWJsZWxpbWl0c0dGPy8lJ2FjY2VudEdGPy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk4tSShtZmVuY2VkR0YkNiQtRiM2KC1GLjYlUSJyRidGMUY0LyUrZm9yZWdyb3VuZEdRKlswLDAsMjU1XUYnLyUrZXhlY3V0YWJsZUdGPy8lKXJlYWRvbmx5R0YzLyUwZm9udF9zdHlsZV9uYW1lR1EqMkR+T3V0cHV0RidGO0Y7RllGZm5GaG5Gam5GOy1GODYtUSkmZXF1YWxzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZhby1JJm1zcXJ0R0YkNiMtRiM2LS1GODYtUSomdW1pbnVzMDtGJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGXHAtRiM2LC1JI21uR0YkNiRRIjJGJ0Y7LUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GQEZCRkRGRkZIRkpGTEZPLUYuNiVRJF9DMUYnRjFGNEZkcEZWRllGZm5GaG5Gam5GOy1GODYtUSgmbWludXM7RidGO0Y9RkBGQkZERkZGSEZKRltwRl1wLUklbXN1cEdGJDYlRlZGYHAvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUY4Ni1RJyZwbHVzO0YnRjtGPUZARkJGREZGRkhGSkZbcEZdcC1GIzYqRmBwRmRwLUYuNiVRJF9DMkYnRjFGNEZZRmZuRmhuRmpuRjtGWUZmbkZobkZqbkY7RllGZm5GaG5Gam5GOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L199" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY111 := simplify(sqrt(h)*r*(((1+(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))^2)*m^2+r^2*h-m^2)/(r^2*h))^(-(1/2)*q*(2+q))/sqrt((-sqrt(-2*_C1*r-r^2+2*_C2))*(-eta(r,theta)*(-sqrt(-2*_C1*r-r^2+2*_C2)))));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L197" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">y hago C1 =-m y C2 = 0  y h = 2*m/r -1;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L206" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r - 1],YY111));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L204" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">simplificas un poquito mas</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L223" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">YY1C21 := simplify(((-eta(r, theta)^2*m^2+1)^(-(1/2)*q*(2+q)))/sqrt(eta(r,theta)));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L136" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR := simplify(Phi/Aq);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L211" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1 := sqrt(-2*_C1*r-r^2 +2*_C2)*sinh(theta)*h^(-1/2-(1/2)*q)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L133" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR1C2 := simplify(subs([_C1=-m, _C2 = 0, h = 2*m/r -1],RR1));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L143" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true">La verdadera axial</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L145" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L134" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := f(r)*sin(theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L150" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Phi := Phi1(r,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L139" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac17 := diff(Phi,r,r) +diff(Phi,r)*(diff(f(r),r)/f(r)) +diff(Phi,theta,theta)/f(r)^2; simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L141" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac17,f(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L152" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(r) := sqrt(-2*m*r+r^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L191" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(Ecuac17);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L200" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := diff(A(r), r)/(A(r)) = alpha/(sqrt(2*m*r-r^2))^2;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L207" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac2,A(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L171" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA := rhs(simplify(%));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L177" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Heading 1" layout="Heading 1">La Xtilde</Text-field>
+</Input>
+</Group>
+<Group labelreference="L212" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L156" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := Xtilde(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L259" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XXtilde := Xtilde(r,theta); f := sqrt(2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L258" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde := -m*2*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a*m*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2); Phi := f*sinh(theta);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L265" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">las condiciones de integrabilidad sobre Xtilde (ecuaci\303\263n 29) se cumplen para esa Xtilde</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L263" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2728 := diff(XXtilde,r,r) +(diff(XXtilde,theta,theta) -coth(theta)*diff(XXtilde,theta))/f^2 = psi*(diff(OmegaX,r,r) +(diff(OmegaX,theta,theta) -coth(theta)*diff(OmegaX,theta))/f^2); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L266" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Los elementos m\303\251tricos</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L267" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := sqrt(diff(OmegaX,theta)*sinh(theta)/diff(psi,r));simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L268" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">omega3 := simplify(AA2*psi);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L269" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RR2 := simplify(Phi^2/AA2) -simplify(omega3^2/AA2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L270" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numRR2 := simplify(numer(RR2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L271" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">denRR2 := simplify(denom(RR2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L272" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta := -r^2+2*m*r+a^2*cosh(theta)^2; expand(Delta^2); expand(Delta^3);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L256" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XXtilde := Xtilde(r,theta); f := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L157" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XXtilde := m*(-r^2 +a^2)*cosh(theta)/(r^2 -(a*cosh(theta))^2);  OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L255" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#XX    := ((r^2 +(a*cosh(theta))^2 -2*m*r)/(r^2 +(a*cosh(theta))^2)); OmegaX:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); psi := 2*r*m*a*sinh(theta)^2/(r^2 -2*r*m +(a*cosh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L182" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Ecuac27:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde,theta); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L175" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Ecuac28:= diff(XX,theta)*sinh(theta) +psi*diff(OmegaX,r)/2 = -diff(XXtilde,r);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L257" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#Ecuac2728 := diff(XXtilde,r,r) +(diff(XXtilde,theta,theta) -coth(theta)*diff(XXtilde,theta))/f^2 = psi*(diff(OmegaX,r,r) +(diff(OmegaX,theta,theta) -coth(theta)*diff(OmegaX,theta))/f^2); simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L262" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(8*r*a^3*(a^2*cosh(theta)^2+3*r^2)*cosh(theta)*m*sinh(theta)^2/((cosh(theta)*a-r)^3*(cosh(theta)*a+r)^3));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L224" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve((diff(Xtilde(r, theta), theta, theta)-coth(theta)*(diff(Xtilde(r, theta), theta)))/(a^2+2*m*r-r^2)=0,Xtilde(r,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L158" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">XXtilde1 := rhs(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L260" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(XXtilde1, r, r)  = -8*r*a^3*(a^2*cosh(theta)^2+3*r^2)*cosh(theta)*m*sinh(theta)^2/((cosh(theta)*a-r)^3*(cosh(theta)*a+r)^3*(a^2+2*m*r-r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L261" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">otraecuac := cosh(theta)*(diff(_F2(r), r, r)) = -8*r*a^3*(a^2*cosh(theta)^2+3*r^2)*cosh(theta)*m*sinh(theta)^2/((cosh(theta)*a-r)^3*(cosh(theta)*a+r)^3*(a^2+2*m*r-r^2))</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L159" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(otraecuac,_F2(r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L160" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac271:= diff(XX,r)*f^2*sinh(theta) +psi*diff(OmegaX,theta)/2 = diff(XXtilde1,theta);simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L161" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dsolve(Ecuac271,_F1(theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L252" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((a^2*cosh(2*theta)-2*m*r*cosh(2*theta)+a^2+2*m*r-2*r^2)*a^2*cosh(2*theta)+a^2+2*r^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L165" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ1 := (a^4-2*a^2*m*r)*cosh(2*theta)^2/((a^2-2*m*r+r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L167" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral1:= simplify(int(integ1,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L173" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L169" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ2 := a^2*(a^2+2*r*(m-r))*cosh(2*theta)/((a^2-2*m*r+r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L183" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral2:= simplify(int(integ2,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L253" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">integ3 := (a^2+2*r^2)/((a^2-2*m*r+r^2)*(a^2*cosh(2*theta)+a^2-2*r^2)^2*(a^2*cosh(2*theta)+a^2+4*m*r-2*r^2));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L254" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">intgral3:= simplify(int(integ3,r));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L188" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(intgral1 +intgral2 + intgral3);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L330" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L273" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L331" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="18" bold="true" encoding="UTF-8">La ecuaci\303\263n (22V3)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L332" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L333" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi0 := psi(r,theta); psi0 := 2*r*m*a*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L334" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff1 := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L336" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Omega0:= 2*a*m*cosh(theta)/(r^2 -(a*cosh(theta))^2); #psi := 2*r*a^2*sinh(theta)^2/(-r^2 +2*r*m +(a*cosh(theta))^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L335" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac22 := diff(psi0,r)*diff(Omega0,r) +(1/ff1^2)*diff(psi0,theta)*diff(Omega0,theta);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L337" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%); # yuppi</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L338" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA2 := simplify(sqrt( diff(Omega0,theta)*sinh(theta)/diff(psi0,r) )); AA2b := (-r^2+2*r*m+a^2*cosh(theta)^2)/(a^2*cosh(theta)^2-r^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L274" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="20" bold="true" encoding="UTF-8">La ecuaci\303\263n A,r A,theta</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L275" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L277" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi0 := psi(r,theta);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L281" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#psi := 2*r*a*m*sinh(theta)^2/(-r^2+2*m*r+a^2*cosh(theta)^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L279" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA:= sqrt(1 -2*m*r/(r^2 -(a*cosh(theta))^2)); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L294" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff1 := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L295" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#ff2 := sqrt(-2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L296" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#ff3 := sqrt(-2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L297" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#ff4 := sqrt(-2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L298" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos + + en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L276" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff1*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L278" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L290" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n ser\303\241</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L280" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac1 := numer(Ecuac1); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L282" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L291" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El t\303\251rmino del centro, entre par\303\251ntesis se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L283" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac11 := (diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))+8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r-r^2) = 0;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L288" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L284" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho11 := simplify(8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r-r^2)/((a^2*cosh(theta)^2+2*m*r-r^2)^4));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L289" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Ahora hago las cuentas con el psi de Kerr acomodado con los t\303\251rminos hiperb\303\263licos correg\303\255 un signo en la psi, pero que me de </Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L286" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi00 := 2*r*a*m*sinh(theta)^2/(-r^2 +2*m*r +a^2*cosh(theta)^2); diff(psi00,theta); diff(psi00,r); ladoIzqEc := simplify(diff(psi00,r)*diff(psi00,theta))</Text-field>
+</Input>
+</Group>
+<Group labelreference="L299" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos - - en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L287" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff2 := sqrt(-2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L300" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac2 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff2*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L301" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L302" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L303" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac2 := simplify(numer(Ecuac2)) = 0; </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L304" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))-8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r+r^2));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L307" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L306" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho2 := simplify(8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2+2*m*r+r^2)/(a^2*cosh(theta)^2-2*m*r-r^2)^4);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L305" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoIzqEc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L310" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos - + en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L311" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff3 := sqrt(-2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L309" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac3 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff3*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L315" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L314" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L313" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac3 := simplify(numer(Ecuac3)) = 0; </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L312" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))+8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r-r^2));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L316" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L317" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho3 := simplify(-8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r-r^2)/(a^2*cosh(theta)^2+2*m*r-r^2)^4);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L318" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoIzqEc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L322" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Signos + - en f</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L321" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff4 := sqrt(2*m*r -r^2 -a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L320" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac4 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff4*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L323" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L324" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">El numerador de esa ecuaci\303\263n se anula</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L325" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">numeradorEcuac4 := simplify(numer(Ecuac4)) = 0; </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L326" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify((diff(psi(r, theta), r))*(a^2*cosh(theta)^2+2*m*r-r^2)^4*(diff(psi(r, theta), theta))-8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r+r^2));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L329" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Despejo el sustraendo y aislo las derivadas de psi.  entonces el lado derecho de la ecuaci\303\263n anterior queda como</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L328" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoDerecho3 := simplify(8*a^2*m^2*r*cosh(theta)*sinh(theta)*(cosh(theta)-1)*(cosh(theta)+1)*(a^2*cosh(theta)^2+r^2)*(a^2-2*m*r+r^2)/(a^2*cosh(theta)^2+2*m*r-r^2)^4);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L327" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ladoIzqEc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L339" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="20" bold="true">Para Kerr</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L341" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L340" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">psi0 := psi(r,theta); psi0 := 2*r*a*m*sinh(theta)^2/(-r^2 +2*m*r +a^2*cosh(theta)^2)</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L343" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AA:= sqrt(-1 +2*m*r/(r^2 -(a*cosh(theta))^2)); </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L342" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ff1 := sqrt(2*m*r -r^2 +a^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L346" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(diff(AA,r)); simplify(diff(AA,theta)); simplify(diff(psi0,r));simplify(diff(psi0,theta));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L345" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ecuac1 := 2*diff(AA,r)*diff(AA,theta)/AA^2 -AA^4*diff(psi0,r)*diff(psi0,theta)/(2*(ff1*sinh(theta))^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L344" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L308" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
